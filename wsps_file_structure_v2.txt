@@ -1,0 +1,24 @@
+/WSPS_Project_Root/
+│
+├── /directorate_admin/
+│   ├── staff_roster.xlsx
+│   ├── mission_statement.docx
+│   └── operational_budget.xlsx
+│
+├── /registry_data/                 
+│   ├── master_data_dictionary.docx  
+│   ├── data_log_structure.docx     
+│   ├── coding_cheat_sheet.pdf     
+│   └── bibliography.docx          
+│
+├── /field_kits/                    
+│   ├── researcher_instrument.pdf   
+│   ├── debriefing_script.pdf       
+│   └── participant_resource.pdf    
+│
+└── /wsps_online/                        
+    ├── /media/ 
+    │   ├── wsps_logo.png
+    │   └── NationalPark-VariableVF.ttf
+    ├── index.html                      
+    └── wsps_online_form.html  
