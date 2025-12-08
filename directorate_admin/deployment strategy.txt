@@ -1,0 +1,33 @@
+🚀 WSPS Deployment Protocol
+Status: Pre-Launch / Draft
+Division: The Directorate (Web Admin)
+Phase 1: Hosting (Activation)
+Turning the code into a live website.
+ * [ ] Go to GitHub Repository Settings > Pages.
+ * [ ] Source: Select Deploy from a branch.
+ * [ ] Branch: Select main and folder /wsps_website.
+ * [ ] Click Save.
+ * [ ] Verify: Visit https://[username].github.io/wsps_project/.
+Phase 2: SEO (Visibility)
+Helping search engines read the site.
+ * [ ] Open index.html and wsps_online_form.html.
+ * [ ] Insert the Meta Tags block (Description, Keywords, Author) into the <head> section.
+ * [ ] Insert Open Graph tags (for nice links on Twitter/Discord).
+Phase 3: Registration (Indexing)
+Telling Google the site exists.
+ * [ ] Create account at Google Search Console.
+ * [ ] Select "URL Prefix" and paste the GitHub URL.
+ * [ ] Verify Ownership: Upload the HTML file Google provides to the /wsps_website/ folder in GitHub.
+ * [ ] Submit the Sitemap (usually just the main URL for a simple site) for indexing.
+Phase 4: Compliance (Legal Safety)
+Required for collecting personal contact info.
+ * [ ] Create privacy.html.
+ * [ ] Draft a simple statement: "Data collection is for academic research only. No data is sold. Contact the Directorate to withdraw data."
+ * [ ] Link privacy.html in the footer of the Splash Page.
+Phase 5: Credibility (Optional Upgrade)
+Removing the "github.io" student look.
+ * [ ] Purchase custom domain (e.g., wsps-registry.org).
+ * [ ] Configure Custom Domain in GitHub Pages settings.
+ * [ ] Update DNS records at the registrar.
+Save this text as deployment_protocol.txt or .pdf in your Admin folder.
+When you are ready to execute Phase 1, just let me know, and we will go step-by-step!
