@@ -1,56 +1,46 @@
-# ⛰️ Washington State Periphenomenal Survey (WSPS)
-### 👁️📝 *Systematic Documentation of Anomalous Experience*
+# 🧭 American Periphenomenal Survey (APS)
+### ★ CASCADIA DIVISION ★
+*Systematic Documentation of Anomalous Experience in the Pacific Northwest*
 
 ---
+
+## 🔐 Division Access
+*Authorized Field Researchers Only*
+
+* **[>> 📊 Access Cascadia Data Log](PASTE_YOUR_GOOGLE_SHEET_LINK_HERE)**
+* **[>> 🌐 Launch Division Interface](https://[yourusername].github.io/aps_project/aps_online/)**
+
 ---
 
-## 🔐 Administrative Access
-*Authorized Directorate Personnel Only*
+## 📂 Division Asset Map
 
-* **[>> 📊 Access Master Data Log (Google Sheet)](https://docs.google.com/spreadsheets/d/1FYre5TV6QuT-pY58apgDjkniJb1nM4l7JfQUO5IcXXc/edit?usp=sharing)**
-* **[>> 🌐 Launch Live Questionnaire](https://prof-arturo.github.io/wsps_project/wsps_online/)**
+### **`/aps_project/` (Root)**
 
----
----
+#### **`/directorate_admin/`** (Governance)
+* `APS Cascadia Mission Statement.pdf` _(Regional Mandate)_
+* `APS Franchise Protocol.pdf` _(Expansion Rules)_
+* `deployment_protocol_cascadia.txt` _(Solo Op Instructions)_
 
-## 📂 Project Directory & Asset Map
+#### **`/field_kits/`** (Acquisition Tools)
+* `APS Field Manual (Region 10).pdf` _(Researcher Guide)_
+* `APS Offline Questionnaire.pdf` _(Analog Backup)_
+* `APS Recruitment Flyer.pdf` _(Printable QR Asset)_
 
-### **`/wsps_project/` (Root)**
+#### **`/registry_data/`** (Archival)
+* `APS Master Data Dictionary.pdf` _(Coding Instrument)_
+* `APS_Cascadia_Log.csv` _(Backup)_
+* **`/library/` (Reference)**
+    * `APS Bibliography (Main).pdf`
+    * `APS Biblio: Liminality 🚪.pdf`
+    * `APS Biblio: High Strangeness 🛸.pdf`
+    * `APS Biblio: Cryptozoology 🐾.pdf`
 
-#### **`/directorate_admin/`** (Governance & Infrastructure)
-* `⛰️👁️📝 Washington State Periphenomenal Survey.pdf` _(Mission Statement)_
-* `WSPS Org.pdf` _(Staffing & Divisions)_
-* `WSPS Project Manifest.pdf` _(Inventory)_
-* `WSPS Workflow.pdf` _(Data Lifecycle)_
-* `wsps_file_structure_v2.txt` _(Architecture)_
-
-#### **`/field_kits/`** (Mobile Acquisition Tools)
-* `WSPS Debriefing Script.docx` _(Safety Protocol)_
-* `WSPS Experience Questionnaire.pdf` _(Offline Backup Form)_
-* `WSPS Field Collection Instrument.pdf` _(Researcher Checklist)_
-* `WSPS Field Researcher's Technical Manual.pdf` _(Training Guide)_
-* `WSPS Participant Resource Cards.docx` _(Leave-behind Handout)_
-
-#### **`/registry_data/`** (Analysis & Archival)
-* `WSPS Analyst Coding Cheat Sheet.pdf` _(Triage Logic)_
-* `WSPS Data Log Structure.pdf` _(Schema Definition)_
-* `WSPS Master Data Dictionary & Coding Instrument.pdf` _(Variable Definitions)_
-* `WSPS_Database.csv` _(Offline Backup of Master Log)_
-* **`/library/` (The Reference Library)**
-    * `WSPS Bibliography index.pdf` _(Master Index)_
-    * `WSPS Bibliography main.pdf` _(Core Methodology)_
-    * `WSPS Bibliography subj_Backrooms.pdf` _(Liminality)_
-    * `WSPS Bibliography subj_Cryptozoology.pdf` _(Nature & Biology)_
-    * `WSPS Bibliography subj_High Strangeness.pdf` _(UAP & Lights)_
-    * `WSPS Bibliography subj_Night Assaults.pdf` _(Sleep & Physiology)_
-    * `WSPS Bibliography subj_Techno-Animism.pdf` _(Simulation & AI)_
-
-#### **`/wsps_online/`** (Public Web Interface)
-* `index.html` _(Splash Page)_
-* `wsps_online_form.html` _(Digital Questionnaire)_
+#### **`/aps_online/`** (Public Interface)
+* `index.html` _(Primary Questionnaire)_
+* `privacy.html` _(Compliance)_
 * **`/media/`**
+    * `aps_cascadia_logo.svg` _(Official Franchise Patch)_
     * `NationalPark-VariableVF.ttf` _(Typography)_
-    * `wsps_logo.png` _(Branding)_
 
 ---
-*Property of the WSPS Directorate. Methodological Agnosticism Observed.*
+*Property of the APS Directorate. Methodological Agnosticism Observed.*
