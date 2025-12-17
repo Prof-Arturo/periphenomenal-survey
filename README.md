@@ -21,6 +21,10 @@
 * `APS_Org_Structure.pdf` _(Role Definitions)_
 * `APS_Project_Manifest.pdf` _(Master Inventory)_
 * `APS_Workflow_Cascadia.pdf` _(SOP)_
+* `APS_Territorial_Map_Quick_Ref.pdf` _(Map Reference)_
+* `APS_Technical_Launch_Guide.txt` _(Digital Deployment)_
+* `APS_Territorial_Map.txt` _(Bioregion Definitions)_
+* `aps_composite_map.png` _(Visual Command Map)_
 * `deployment_protocol_cascadia.txt` _(Solo Op Instructions)_
 * **`/branding_assets/` (Master Files)**
     * `APS_logo_cascadia.svg` _(Vector Source)_
@@ -42,6 +46,7 @@
 * `APS_Data_Log_Schema.pdf` _(Database Structure)_
 * `APS_Cascadia_Log.csv` _(Master Database)_
 * **`/library/` (Reference)**
+    * `APS_Biblio_Master_Index.txt` _(Catalog & Codes)_
     * `APS_Biblio_Methodology.pdf`
     * `APS_Biblio_Liminality.pdf` 🚪
     * `APS_Biblio_HighStrangeness.pdf` 🛸
