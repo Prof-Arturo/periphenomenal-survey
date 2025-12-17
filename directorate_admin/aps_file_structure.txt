@@ -1,0 +1,43 @@
+/APS_Project_Root/
+├── /directorate_admin/         <-- Governance & Source Files
+│   ├── 🌲👁️📝 APS_Mission_Statement_Cascadia.pdf
+│   ├── APS_Org_Structure.pdf
+│   ├── APS_Project_Manifest.pdf
+│   ├── APS_Workflow_Cascadia.pdf
+│   ├── APS_Territorial_Map_Quick_Ref.pdf
+│   ├── deployment_protocol_cascadia.txt
+│   ├── APS_Technical_Launch_Guide.txt  
+│   ├── APS_Territorial_Map.txt         
+│   ├── aps_composite_map.png           
+│   └── /branding_assets/       
+│       ├── APS_logo_cascadia.svg
+│       ├── APS_logo_master.svg
+│       └── NationalPark-All-Fonts.zip
+│
+├── /registry_data/             <-- Archival
+│   ├── APS_Master_Data_Dictionary.pdf
+│   ├── APS_Data_Log_Schema.pdf
+│   ├── APS_Master_Coding_Sheet.pdf
+│   ├── APS_Cascadia_Log.csv
+│   └── /library/               
+│       ├── APS_Biblio_Methodology.pdf
+│       ├── APS_Biblio_Master_Index.txt 
+│       └── [Subject Bibliographies x5]
+│
+├── /field_kits/                <-- Acquisition (Printables)
+│   ├── aps_qr_code.svg
+│   ├── APS_Field_Manual_Reg10.pdf
+│   ├── APS_Field_Instrument_Reg10.pdf
+│   ├── APS_Experience_Questionnaire.pdf
+│   ├── APS_Debriefing_Protocol.pdf
+│   ├── APS_Resource_Card_Cascadia.pdf
+│   └── APS_Recruitment_Flyer.pdf
+│
+└── /aps_online/                <-- Public Interface
+    ├── index.html              (Main Form)
+    ├── privacy.html
+    └── /media/                 (Web-Optimized Copies)
+        ├── aps_cascadia_logo.svg
+        ├── aps_qr_code.svg
+        ├── NationalPark-VariableVF.ttf
+        └── favicon.png

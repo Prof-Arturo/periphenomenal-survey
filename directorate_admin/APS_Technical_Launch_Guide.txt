@@ -1,0 +1,103 @@
+=========================================================================
+APS TECHNICAL GUIDE: DIGITAL LAUNCH & SEO
+Division: Cascadia (Region 10)
+Reference: Supports 'Phase 1' of Deployment Protocol
+=========================================================================
+
+PHASE 1: SERVER ACTIVATION (GITHUB PAGES)
+-----------------------------------------
+Your files currently sit dormant in the repository. This step turns them into 
+a live, accessible website.
+
+1. ACCESS REPOSITORY SETTINGS
+   - Go to your GitHub Repository.
+   - Click the "Settings" tab (Gear icon).
+   - Scroll down on the left sidebar to "Pages".
+
+2. CONFIGURE SOURCE
+   - Under "Source", ensure "Deploy from a branch" is selected.
+   - Under "Branch", select "main" (or master).
+   - **CRITICAL STEP:** Select the folder "/aps_online" (NOT root).
+     *Why: We only want the public to see the website, not your internal admin files.*
+
+3. LAUNCH
+   - Click "Save".
+   - Wait approx. 60 seconds. Refresh the page.
+   - You will see a banner: "Your site is live at https://[user].github.io/aps_project/"
+
+4. VERIFICATION
+   - Open the link on a mobile device.
+   - Verify the Cascadia Logo loads.
+   - Verify the "Jurisdiction" dropdown shows "Alaska (Southeast)" and "Northern CA".
+
+
+PHASE 2: SEARCH ENGINE OPTIMIZATION (SEO)
+-----------------------------------------
+To ensure the "Spiderweb" works, Google must know what this site is.
+We need to inject "Meta Tags" into your code.
+
+1. OPEN 'index.html'
+   - Locate the <head> section (near the top).
+   - Paste the following block immediately after the <title> tag:
+
+   <meta name="description" content="The American Periphenomenal Survey (Cascadia Division) is an academic registry systematically documenting anomalous human experiences, cryptids, and liminal events in the Pacific Northwest (WA, OR, ID, BC, AK).">
+   <meta name="keywords" content="Cascadia, Bioregion, Bigfoot, Sasquatch, High Strangeness, Liminal Spaces, Glitch in the Matrix, Academic Survey, Pacific Northwest, Region 10">
+   <meta name="author" content="APS Directorate: Region 10">
+   <meta name="robots" content="index, follow">
+   
+   <meta property="og:type" content="website">
+   <meta property="og:title" content="APS Cascadia: Report an Anomaly">
+   <meta property="og:description" content="Secure, anonymous reporting for unexplained phenomena in the Pacific Northwest. Help us map the unknown.">
+   <meta property="og:image" content="media/aps_cascadia_logo.svg">
+   PHASE 3: INDEXING (GOOGLE SEARCH CONSOLE)
+-----------------------------------------
+Google can take months to find a new GitHub site. Force them to look now.
+
+1. REGISTER
+   - Go to Google Search Console (search.google.com/search-console).
+   - Log in with a generic Google Account (not your personal one, if possible).
+
+2. ADD PROPERTY
+   - Select "URL Prefix".
+   - Paste your GitHub URL: https://[user].github.io/aps_project/
+
+3. VERIFY OWNERSHIP
+   - Google will ask you to prove you own the site.
+   - Method: "HTML Tag" (Easiest for GitHub).
+   - Copy the meta tag they provide.
+   - Paste it into your 'index.html' <head> section.
+   - Commit the change to GitHub.
+   - Click "Verify" in the Google Console.
+
+4. FORCE CRAWL
+   - Once verified, use the "URL Inspection" tool at the top.
+   - Paste your URL again.
+   - Click "Request Indexing".
+
+
+PHASE 4: PROFESSIONAL CREDIBILITY (CUSTOM DOMAIN)
+-------------------------------------------------
+A ".github.io" URL looks like a student project. A ".org" URL looks like an institution.
+*This step is optional but highly recommended for Phase 2 (Data Accumulation).*
+
+1. ACQUISITION
+   - Purchase a domain (approx. $12/yr) from Namecheap, Google, or Porkbun.
+   - Recommended Formats:
+     * aps-cascadia.org
+     * cascadia-registry.org
+     * region10-survey.com
+
+2. LINKING
+   - In GitHub Settings > Pages > Custom Domain: Type your new domain.
+   - GitHub will provide DNS records (A Records and CNAME).
+   - Log into your Domain Registrar and paste these records.
+   - Check the box "Enforce HTTPS" in GitHub (Wait 24 hours for SSL certificate).
+
+
+PHASE 5: COMPLIANCE CHECK
+-------------------------
+1. PRIVACY LINK
+   - Ensure 'privacy.html' exists in the /aps_online/ folder.
+   - Verify the link in the footer of 'index.html' works.
+   
+=========================================================================

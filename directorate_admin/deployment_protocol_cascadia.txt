@@ -1,74 +1,55 @@
 =========================================================================
-APS DEPLOYMENT PROTOCOL: CASCADIA DIVISION (v2.0)
+APS DEPLOYMENT PROTOCOL: CASCADIA DIVISION (v3.2)
 Status: ACTIVE | Model: Solo-Operator Franchise
+Map Reference: aps_composite_map.png
 =========================================================================
 
 1. MISSION PROFILE
 ------------------
 The Cascadia Division (Region 10) operates as a decentralized archival node. 
-Unlike previous "Ghost Hunting" groups, our goal is not to prove the existence 
-of the paranormal, but to map the human experience of it.
-
 We observe Methodological Agnosticism. We document the "Data of the Weird" 
 without endorsing a specific spiritual or scientific theory.
 
 
 2. OPERATIONAL ARCHITECTURE
 ---------------------------
-The Division is organized into four distinct asset directories:
-
-A. /directorate_admin/
-   The "Governance" layer. Contains your mandate, protocols, and source files.
-   
-B. /registry_data/
-   The "Archive" layer. Contains the CSV database and the dictionaries 
-   required to interpret it.
-   
-C. /field_kits/
-   The "Acquisition" layer. Contains the physical tools (flyers, forms) 
-   used to capture data in the real world.
-   
-D. /aps_online/
-   The "Public Interface." The GitHub-hosted website where subjects submit reports.
+A. /directorate_admin/ (Governance & Source Files)
+B. /registry_data/     (The Private Archive - CSV Database)
+C. /field_kits/        (Acquisition Tools)
+D. /aps_online/        (Public Interface)
 
 
-3. DEPLOYMENT STEPS (INITIALIZATION)
-------------------------------------
-[ ] STEP 1: ASSET VERIFICATION
-    Ensure all files in /field_kits/ and /aps_online/media/ are using the 
-    Region 10 "Cascadia" branding (Green/Cream Palette).
+3. PHASE 1: DIGITAL STATIONING (THE "DARK" LAUNCH)
+--------------------------------------------------
+Goal: Ensure the ingestion system works before the public sees it.
+**Reference:** See 'APS_Technical_Launch_Guide.txt' for step-by-step config.
 
-[ ] STEP 2: DIGITAL LAUNCH
-    Upload the contents of /aps_online/ to your GitHub Repository.
-    Verify the "Google Apps Script" is active and writing to "APS_Cascadia_Log.csv".
-    Test the form with a dummy entry (ID: TEST-001).
+[ ] STEP 1: THE INTAKE PORTAL (Geofencing Active)
+...
+    Deploy 'index.html' to GitHub Pages.
+    - Constraint: The form must visually warn users if they select a location 
+      outside the Bioregion.
+    - Authorized Codes: { WA, OR, ID, BC, AK_SE, NORCAL_JEFF }
+    - Logic: Non-Cascadia reports are flagged as "JURISDICTION_ERROR" in the CSV.
 
-[ ] STEP 3: PASSIVE RECRUITMENT (THE "SPIDERWEB")
+[ ] STEP 2: PROFESSIONAL VALIDATION
+    - Domain: Purchase a dedicated domain (e.g., aps-cascadia.org).
+    - SSL: Ensure HTTPS enforcement is active.
+    - Why: A custom URL increases submission rates by ~40% over a raw GitHub link.
+
+
+4. PHASE 2: DATA ACCUMULATION (THE "BLACKOUT" PERIOD)
+-----------------------------------------------------
+Goal: Fill the reservoir. The Public Registry remains OFFLINE during this phase.
+
+[ ] STEP 1: PHYSICAL ASSETS (PASSIVE RECRUITMENT)
     Print 20 copies of "APS_Recruitment_Flyer.pdf".
     Place them in high-traffic "Liminal Spaces" (ferry terminals, trailheads, 
     bulletin boards near older forests).
-    The Goal: Let the QR Code do the work.
 
-
-4. FIELD PROTOCOLS (ACTIVE)
----------------------------
-When the Researcher is physically present for an investigation:
-
-A. THE INTERCEPT
-   Use "APS_Field_Instrument_Reg10.pdf" (Clipboard).
-   ALWAYS fill out Section A (Site Data) before engaging the subject.
-   
-B. THE BRIDGE
-   If the subject is comfortable, hand them the Tablet/Phone with "index.html" loaded.
-   Instruct them to fill it out while you record "Subject Observation" notes.
-   
-C. THE SYNCHRONIZATION
-   CRITICAL: Record the exact minute they hit "Submit" on your Clipboard form.
-   This timestamps the link between their Digital Narrative and your Analog Verification.
-
-D. THE EXIT
-   Always read "APS_Debriefing_Protocol.pdf" to ground the subject.
-   Always provide "APS_Resource_Card_Cascadia.pdf".
+[ ] STEP 2: THE QR LINK
+    Ensure the QR Code points to the Intake Portal.
+    The Loop: User sees flyer -> Scans Code -> Submits Data -> We Archiving.
 
 
 5. ANALYST WORKFLOW (WEEKLY TRIAGE)
@@ -76,27 +57,34 @@ D. THE EXIT
 Every Sunday, the Director assumes the role of "Senior Analyst."
 
 [ ] STEP 1: INGESTION
-    Open "APS_Cascadia_Log.csv" (or the Google Sheet).
-    Check for new entries from the QR Code flyers.
+    Open "APS_Cascadia_Log.csv".
+    Filter by 'location_state'. Move 'OTHER' to "Transfer_Buffer".
 
-[ ] STEP 2: CLEANING
-    Fix simple formatting errors (e.g., "Washington" -> "WA").
-    Assign a unique "CAS-####" ID to any new rows.
+[ ] STEP 2: CODING & CLEANING
+    - Assign Case IDs (CAS-001, CAS-002...).
+    - Fix formatting errors.
+    - Flag "High Quality" narratives for future publication.
 
-[ ] STEP 3: CODING
-    Use "APS_Master_Data_Dictionary.pdf" and "APS_Master_Coding_Sheet.pdf".
-    Fill in the Analyst Columns:
-    - class_code (e.g., TYPE_B)
-    - narr_consistency (1-5)
-    - impact_score (1-4)
-
-[ ] STEP 4: ARCHIVAL
-    Save the CSV.
-    If a narrative is particularly compelling, export it as a "Case File" PDF 
-    to the /registry_data/library/ folder.
+[ ] STEP 3: ARCHIVAL
+    Save the CSV. No public upload yet.
 
 
-6. EMERGENCY / SHUTDOWN
+6. PHASE 3: THE "OPEN RECORD" (CONDITIONAL LAUNCH)
+--------------------------------------------------
+**CRITICAL MILESTONE:** Initiate Phase 3 ONLY after collecting 25 Verified Reports.
+
+[ ] STEP 1: DEPLOY 'REGISTRY.HTML'
+    Create the public-facing table that pulls from your CSV.
+    - Sanitize: Ensure NO names/emails are displayed.
+    - Sort: Allow public to sort by "Event Type" or "Location".
+
+[ ] STEP 2: THE FEEDBACK LOOP
+    Once the Registry is live, new flyers can say:
+    "See the map of local anomalies at [URL]."
+    This proves to the public that the project is alive and active.
+
+
+7. EMERGENCY / SHUTDOWN
 -----------------------
 In the event of compromise or project termination:
 1. Unpublish the GitHub Repository.
