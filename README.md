@@ -42,7 +42,7 @@
 
 #### **`/registry_data/`** (Archival)
 * `APS_Master_Data_Dictionary.pdf` _(Coding Definitions v3.1)_
-* `APS_Master_Coding_Sheet.pdf` _(Analyst Cheat Sheet)_
+* `APS_Master_Coding_Sheet.pdf` _(Analyst Cheat Sheet v3.1)_
 * `APS_Data_Log_Schema.pdf` _(Database Structure)_
 * `APS_Cascadia_Log.csv` _(Master Database)_
 * **`/library/` (Reference)**
@@ -51,6 +51,8 @@
     * `APS_Biblio_Liminality.pdf` 🚪
     * `APS_Biblio_HighStrangeness.pdf` 🛸
     * `APS_Biblio_Cryptozoology.pdf` 🐾
+    * `APS_Biblio_Simulation.pdf` 🖥️
+    * `APS_Biblio_NightAssault.pdf` 🛌
 
 #### **`/aps_online/`** (Public Interface)
 * `index.html` _(Primary Questionnaire)_
