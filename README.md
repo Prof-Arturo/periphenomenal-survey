@@ -15,6 +15,13 @@
 ## 📂 Division Asset Map
 
 ### **`/aps_project/` (Root)**
+* `index.html` _(Primary Questionnaire)_
+* `privacy.html` _(Compliance)_
+* **`/media/` (Web Assets)**
+    * `aps_cascadia_logo.svg` _(Web Optimized)_
+    * `aps_qr_code.svg` _(Web Optimized)_
+    * `favicon.png` _(Browser Tab Icon)_
+    * `NationalPark-VariableVF.ttf` _(Typography)_
 
 #### **`/directorate_admin/`** (Governance)
 * `APS_Mission_Statement_Cascadia.pdf` _(Regional Mandate)_
@@ -53,15 +60,6 @@
     * `APS_Biblio_Cryptozoology.pdf` 🐾
     * `APS_Biblio_Simulation.pdf` 🖥️
     * `APS_Biblio_NightAssault.pdf` 🛌
-
-#### **`/aps_online/`** (Public Interface)
-* `index.html` _(Primary Questionnaire)_
-* `privacy.html` _(Compliance)_
-* **`/media/`**
-    * `aps_cascadia_logo.svg` _(Web Optimized)_
-    * `aps_qr_code.svg` _(Web Optimized)_
-    * `favicon.png` _(Browser Tab Icon)_
-    * `NationalPark-VariableVF.ttf` _(Typography)_
 
 ---
 *Property of the APS Directorate. Methodological Agnosticism Observed.*
