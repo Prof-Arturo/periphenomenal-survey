@@ -1,5 +1,5 @@
 =========================================================================
-APS DEPLOYMENT PROTOCOL: CASCADIA DIVISION (v3.2)
+APS DEPLOYMENT PROTOCOL: CASCADIA DIVISION (v3.1)
 Status: ACTIVE | Model: Solo-Operator Franchise
 Map Reference: aps_composite_map.png
 =========================================================================

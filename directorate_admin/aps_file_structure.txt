@@ -25,7 +25,7 @@
 │       └── [Subject Bibliographies x5]
 │
 ├── /field_kits/                <-- Acquisition (Printables)
-│   ├── aps_qr_code.svg
+│   ├── aps_cascadia_qr.svg
 │   ├── APS_Field_Manual_Reg10.pdf
 │   ├── APS_Field_Instrument_Reg10.pdf
 │   ├── APS_Experience_Questionnaire.pdf
@@ -33,11 +33,12 @@
 │   ├── APS_Resource_Card_Cascadia.pdf
 │   └── APS_Recruitment_Flyer.pdf
 │
-└── /aps_online/                <-- Public Interface
-    ├── index.html              (Main Form)
-    ├── privacy.html
-    └── /media/                 (Web-Optimized Copies)
-        ├── aps_cascadia_logo.svg
-        ├── aps_qr_code.svg
-        ├── NationalPark-VariableVF.ttf
-        └── favicon.png
+├── index.html              (Main Form)
+├── privacy.html
+└── /media/                 (Web-Optimized Copies)
+    ├── aps_cascadia_logo.svg
+    ├── aps_cascadia_qr.svg
+    ├── NationalPark-VariableVF.ttf
+    └── favicon.png
+
+

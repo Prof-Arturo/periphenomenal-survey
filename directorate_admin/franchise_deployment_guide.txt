@@ -1,0 +1,88 @@
+=========================================================================
+APS DIVISION FRANCHISE KIT: DEPLOYMENT GUIDE (v1.0)
+Clearance: DIVISION DIRECTOR
+Protocol: CLONE & OWN
+=========================================================================
+
+1. MISSION OVERVIEW
+-------------------
+You have been authorized to establish a new autonomous Division of the 
+American Periphenomenal Survey (APS). This guide details how to clone 
+the APS Digital Infrastructure to your own region.
+
+OBJECTIVE: Create a secure, independent reporting node that feeds into 
+your own database, while maintaining APS data standards for future 
+cross-reference.
+
+2. ASSET LIST (WHAT YOU NEED)
+-----------------------------
+1. A GitHub Account (Free) - Hosts your website.
+2. A Google Account (Free) - Hosts your database.
+3. The Source Code (Provided by APS National).
+
+=========================================================================
+PHASE 1: THE DATA SILO (GOOGLE BACKEND)
+-------------------------------------------------------------------------
+Before building the website, you must build the bucket where data lands.
+
+1. Create the Log:
+   - Create a new Google Sheet.
+   - Name it: "APS_[YourDivision]_Log" (e.g., APS_Appalachia_Log).
+   - Create these EXACT column headers in Row 1 (Do not change spellings):
+     [timestamp, age_group, gender, cultural_bg, occupation, 
+      location_state, location_specific, witness_status, 
+      phenom_silence, phenom_hum, phenom_time, phenom_nausea, 
+      phenom_paralysis, phenom_tech, phenom_ozone, phenom_fear, 
+      narrative, attribution, contact_info]
+
+2. Install the Script:
+   - In the Sheet, go to Extensions > Apps Script.
+   - Delete any code there. Paste the "APS Intake Script" (Ask Cascadia 
+     Director for the raw .gs code block).
+   - Save the project as "APS_Intake_Backend".
+
+3. Deploy the Receiver:
+   - Click "Deploy" > "New Deployment".
+   - Select type: "Web App".
+   - Execute as: "Me" (Your email).
+   - Who has access: "Anyone" (Critical for public reporting).
+   - Click "Deploy".
+   - COPY the "Web App URL". This is your KEY. Save it.
+
+=========================================================================
+PHASE 2: THE INTERFACE (GITHUB FRONTEND)
+-------------------------------------------------------------------------
+1. Create Your HQ:
+   - Login to GitHub.
+   - Create a new Repository named: "aps_[your_division]" 
+     (e.g., aps_appalachia).
+   - Check "Add a README file".
+
+2. Upload Assets:
+   - Upload the provided 'index.html', 'privacy.html', and '/media' folder.
+
+3. Customize the Code (The Rebrand):
+   - Open 'index.html' (Click the pencil icon to edit).
+   - FIND the line: const scriptURL = '...'
+   - REPLACE the link with YOUR Web App URL from Phase 1.
+   - FIND the <title> and <h1> tags. Change "Cascadia Division" to 
+     "Appalachia Division" (or your region).
+   - FIND the Bioregion Dropdown (<select id="location_state">).
+     Update the options to match your local states (e.g., WV, KY, TN).
+   - Commit changes.
+
+4. Launch:
+   - Go to Settings > Pages.
+   - Select Branch: "main" -> Folder: "/ (root)".
+   - Save. Your site is now live at: [username].github.io/aps_[division]/
+
+=========================================================================
+PHASE 3: OPERATIONAL INDEPENDENCE
+-------------------------------------------------------------------------
+* You now own the data. APS National cannot see your sheet unless you 
+  share it.
+* You are responsible for monitoring incoming reports.
+* You are responsible for local recruitment (flyers).
+
+STAY VIGILANT.
+=========================================================================
