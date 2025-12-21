@@ -1,5 +1,5 @@
 # 🧭 American Periphenomenal Survey (APS)
-### ★ CASCADIA DIVISION ★
+### 🌲 CASCADIA DIVISION 🌲
 *Systematic Documentation of Anomalous Experience in the Pacific Northwest*
 
 ---
@@ -8,7 +8,7 @@
 *Authorized Field Researchers Only*
 
 * **[>> 📊 Access Cascadia Data Log](https://docs.google.com/spreadsheets/d/1FYre5TV6QuT-pY58apgDjkniJb1nM4l7JfQUO5IcXXc/edit?usp=sharing)**
-* **[>> 🌐 Launch Division Interface](https://Prof-Arturo.github.io/aps_project/)**
+* **[>> 🌐 Launch Division Interface](https://www.aps-project.org/)**
 
 ---
 
