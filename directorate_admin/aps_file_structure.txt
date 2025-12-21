@@ -1,44 +1,52 @@
-/APS_Project_Root/
-├── /directorate_admin/         <-- Governance & Source Files
-│   ├── 🌲👁️📝 APS_Mission_Statement_Cascadia.pdf
+aps_project/
+├── CNAME
+├── README.md
+├── directorate_admin/
+│   ├── APS_Mission_Statement_Cascadia.pdf
 │   ├── APS_Org_Structure.pdf
 │   ├── APS_Project_Manifest.pdf
-│   ├── APS_Workflow_Cascadia.pdf
+│   ├── APS_Strategic_Launch_Plan.txt
+│   ├── APS_Technical_Launch_Guide.txt
+│   ├── APS_Territorial_Map.txt
 │   ├── APS_Territorial_Map_Quick_Ref.pdf
-│   ├── deployment_protocol_cascadia.txt
-│   ├── APS_Technical_Launch_Guide.txt  
-│   ├── APS_Territorial_Map.txt         
-│   ├── aps_composite_map.png           
-│   └── /branding_assets/       
-│       ├── APS_logo_cascadia.svg
-│       ├── APS_logo_master.svg
-│       └── NationalPark-All-Fonts.zip
-│
-├── /registry_data/             <-- Archival
-│   ├── APS_Master_Data_Dictionary.pdf
-│   ├── APS_Data_Log_Schema.pdf
-│   ├── APS_Master_Coding_Sheet.pdf
-│   ├── APS_Cascadia_Log.csv
-│   └── /library/               
-│       ├── APS_Biblio_Methodology.pdf
-│       ├── APS_Biblio_Master_Index.txt 
-│       └── [Subject Bibliographies x5]
-│
-├── /field_kits/                <-- Acquisition (Printables)
-│   ├── aps_cascadia_qr.svg
-│   ├── APS_Field_Manual_Reg10.pdf
-│   ├── APS_Field_Instrument_Reg10.pdf
-│   ├── APS_Experience_Questionnaire.pdf
+│   ├── APS_Territorial_Map_Schematic.txt
+│   ├── APS_Workflow_Cascadia.pdf
+│   ├── aps_composite_map.svg
+│   ├── aps_file_structure.txt
+│   ├── branding_assets/
+│   │   ├── APS_logo_cascadia.svg
+│   │   ├── APS_logo_master.svg
+│   │   └── NationalPark-All-Fonts.zip
+│   └── franchise_deployment_guide.txt
+├── field_kits/
 │   ├── APS_Debriefing_Protocol.pdf
+│   ├── APS_Experience_Questionnaire.pdf
+│   ├── APS_Field_Instrument_Reg10.pdf
+│   ├── APS_Field_Manual_Reg10.pdf
+│   ├── APS_Field_Ops_Protocol.txt
+│   ├── APS_Recruitment_Flyer.pdf
+│   ├── APS_Resource_Card_Cascadia.docx
 │   ├── APS_Resource_Card_Cascadia.pdf
-│   └── APS_Recruitment_Flyer.pdf
-│
-├── index.html              (Main Form)
+│   └── aps_cascadia_qr.svg
+├── index.html
+├── media/
+│   ├── NationalPark-VariableVF.ttf
+│   ├── aps_cascadia_logo.svg
+│   ├── aps_cascadia_qr.svg
+│   └── favicon.png
 ├── privacy.html
-└── /media/                 (Web-Optimized Copies)
-    ├── aps_cascadia_logo.svg
-    ├── aps_cascadia_qr.svg
-    ├── NationalPark-VariableVF.ttf
-    └── favicon.png
-
+└── registry_data/
+    ├── APS_Cascadia_Log.csv
+    ├── APS_Data_Log_Schema.pdf
+    ├── APS_Master_Coding_Sheet.pdf
+    ├── APS_Master_Data_Dictionary.pdf
+    ├── aps_intake_script.js
+    └── library/
+        ├── APS_Biblio_Cryptozoology.pdf
+        ├── APS_Biblio_HighStrangeness.pdf
+        ├── APS_Biblio_Liminality.pdf
+        ├── APS_Biblio_Master_Index.txt
+        ├── APS_Biblio_Methodology.pdf
+        ├── APS_Biblio_NightAssault.pdf
+        └── APS_Biblio_Simulation.pdf
 

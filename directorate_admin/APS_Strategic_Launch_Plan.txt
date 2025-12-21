@@ -18,7 +18,7 @@ without endorsing a specific spiritual or scientific theory.
 A. /directorate_admin/ (Governance & Source Files)
 B. /registry_data/     (The Private Archive - CSV Database)
 C. /field_kits/        (Acquisition Tools)
-D. /aps_online/        (Public Interface)
+D. /(Root Directory)   (Public Interface)
 
 
 3. PHASE 1: DIGITAL STATIONING (THE "DARK" LAUNCH)
