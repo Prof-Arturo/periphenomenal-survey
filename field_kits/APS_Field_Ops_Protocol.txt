@@ -1,0 +1,74 @@
+field_deployment_protocol_cascadia.txt
+
+=========================================================================
+APS FIELD DEPLOYMENT PROTOCOL: CASCADIA DIVISION (Reg. 10)
+Operation: SIGNAL_FLARE (Passive Recruitment)
+Status: ACTIVE
+=========================================================================
+
+1. OBJECTIVE
+------------
+To distribute physical access points (QR Code Flyers) in high-probability 
+zones for anomalous experience, without compromising researcher anonymity 
+or safety.
+
+2. TARGET ZONES (PRIORITY MATRIX)
+---------------------------------
+[A] COMMUNITY HUBS (High Traffic / Low Strangeness)
+    * Context: Coffee shops, libraries, community center bulletin boards.
+    * Goal: Capture the "Normal" witness who experienced something weird 
+      but has no outlet.
+    * Method: Use tape/thumbtacks. MUST be authorized/legal placement.
+
+[B] LIMINAL THRESHOLDS (Medium Traffic / High Strangeness)
+    * Context: Trailheads, ferry terminals, rural gas stations, 
+      rest stops along Hwy 101 or I-5.
+    * Goal: Capture transients and outdoor recreationists.
+    * Method: Zip-ties on poles or staples on wooden utility poles 
+      (where local ordinance permits).
+
+[C] "HOT SPOTS" (Low Traffic / High Strangeness)
+    * Context: Specific locations with folklore history (e.g., Ape Canyon, 
+      Port Gamble, Bradshaw Road).
+    * Goal: Verify active phenomena.
+    * Method: Non-destructive placement only. Do not litter.
+
+3. DEPLOYMENT PROCEDURE (THE "TAG & LOG" LOOP)
+----------------------------------------------
+For every flyer placed, the Researcher must perform the "Tag & Log":
+
+   STEP 1: FIXATION
+   Secure the flyer. Ensure it is flat, visible, and the QR code is 
+   not wrinkled (wrinkles break the scan).
+
+   STEP 2: VALIDATION
+   Open your own phone camera. Scan the flyer YOU just placed.
+   * IF it loads the form: Asset is Live.
+   * IF it fails: Replace the flyer immediately.
+
+   STEP 3: LOGGING (The Shadow Record)
+   Take a wide-shot photo of the placement for the internal archive.
+   * Note the location coordinates (Screensot your compass app or 
+     metadata on the photo).
+   * Save to: /field_data/deployments/[YYYY-MM-DD]_Location.jpg
+
+4. SAFETY PROTOCOLS (SOLO OPS)
+------------------------------
+   * THE GRAY MAN DOCTRINE: Wear nondescript clothing. Do not wear 
+     tactical gear or costumes. You are an academic surveyor, not a 
+     ghost hunter. Look boring.
+   * DAYLIGHT ONLY: Do not deploy in remote woodlands after dusk.
+   * COMMS CHECK: If entering a dead zone (No Service), text your 
+     "Lifeline" contact your coordinates and expected return time 
+     BEFORE you lose signal.
+   * EGRESS: Park your vehicle nose-out. Know your exit route.
+
+5. LEGAL DISCLAIMER
+-------------------
+The APS mandates compliance with all local laws regarding signage. 
+Do not deface public property. Use designated bulletin boards 
+whenever possible. If asked to leave, leave immediately.
+
+=========================================================================
+Property of the APS Directorate. 
+Do not distribute to unauthorized personnel.
