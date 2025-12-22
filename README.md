@@ -15,11 +15,12 @@
 ## 📂 Division Asset Map
 
 ### **`/aps_project/` (Root)**
+* `CNAME` _(Domain Configuration)_
 * `index.html` _(Primary Questionnaire)_
 * `privacy.html` _(Compliance)_
 * **`/media/` (Web Assets)**
     * `aps_cascadia_logo.svg` _(Web Optimized)_
-    * `aps_qr_code.svg` _(Web Optimized)_
+    * `aps_cascadia_qr.svg` _(Web Optimized)_
     * `favicon.png` _(Browser Tab Icon)_
     * `NationalPark-VariableVF.ttf` _(Typography)_
 
@@ -27,31 +28,36 @@
 * `APS_Mission_Statement_Cascadia.pdf` _(Regional Mandate)_
 * `APS_Org_Structure.pdf` _(Role Definitions)_
 * `APS_Project_Manifest.pdf` _(Master Inventory)_
-* `APS_Workflow_Cascadia.pdf` _(SOP)_
-* `APS_Territorial_Map_Quick_Ref.pdf` _(Map Reference)_
+* `APS_Strategic_Launch_Plan.txt` _(Master Strategy)_
 * `APS_Technical_Launch_Guide.txt` _(Digital Deployment)_
 * `APS_Territorial_Map.txt` _(Bioregion Definitions)_
-* `aps_composite_map.png` _(Visual Command Map)_
-* `deployment_protocol_cascadia.txt` _(Solo Op Instructions)_
+* `APS_Territorial_Map_Quick_Ref.pdf` _(Map Reference)_
+* `APS_Territorial_Map_Schematic.txt` _(Schematic Data)_
+* `APS_Workflow_Cascadia.pdf` _(SOP)_
+* `aps_composite_map.svg` _(Visual Command Map)_
+* `aps_file_structure.txt` _(Directory Tree)_
+* `franchise_deployment_guide.txt` _(Expansion Kit)_
 * **`/branding_assets/` (Master Files)**
     * `APS_logo_cascadia.svg` _(Vector Source)_
     * `APS_logo_master.svg` _(Generic Seal)_
     * `NationalPark-All-Fonts.zip`
 
 #### **`/field_kits/`** (Acquisition Tools)
+* `APS_Field_Ops_Protocol.txt` _(Tactical Instructions)_
 * `APS_Field_Manual_Reg10.pdf` _(Researcher Guide)_
 * `APS_Field_Instrument_Reg10.pdf` _(Clipboard Form)_
 * `APS_Experience_Questionnaire.pdf` _(Offline Backup)_
 * `APS_Recruitment_Flyer.pdf` _(Passive Intake)_
 * `APS_Resource_Card_Cascadia.pdf` _(Safety Handout)_
 * `APS_Debriefing_Protocol.pdf` _(Exit Script)_
-* `aps_qr_code.svg` _(Vector Scan Code)_
+* `aps_cascadia_qr.svg` _(Vector Scan Code)_
 
 #### **`/registry_data/`** (Archival)
 * `APS_Master_Data_Dictionary.pdf` _(Coding Definitions v3.1)_
 * `APS_Master_Coding_Sheet.pdf` _(Analyst Cheat Sheet v3.1)_
 * `APS_Data_Log_Schema.pdf` _(Database Structure)_
 * `APS_Cascadia_Log.csv` _(Master Database)_
+* `aps_intake_script.js` _(Backend Logic Backup)_
 * **`/library/` (Reference)**
     * `APS_Biblio_Master_Index.txt` _(Catalog & Codes)_
     * `APS_Biblio_Methodology.pdf`
