@@ -1,7 +1,10 @@
+
 aps_project/
 ├── CNAME
 ├── README.md
 ├── directorate_admin/
+│   ├── APS Business Card back.pdf
+│   ├── APS Business Card front.pdf
 │   ├── APS_Mission_Statement_Cascadia.pdf
 │   ├── APS_Org_Structure.pdf
 │   ├── APS_Project_Manifest.pdf
@@ -19,6 +22,7 @@ aps_project/
 │   │   └── NationalPark-All-Fonts.zip
 │   └── franchise_deployment_guide.txt
 ├── field_kits/
+│   ├── APS QR Stickers_v2.pdf
 │   ├── APS_Debriefing_Protocol.pdf
 │   ├── APS_Experience_Questionnaire.pdf
 │   ├── APS_Field_Instrument_Reg10.pdf
@@ -27,11 +31,14 @@ aps_project/
 │   ├── APS_Recruitment_Flyer.pdf
 │   ├── APS_Resource_Card_Cascadia.docx
 │   ├── APS_Resource_Card_Cascadia.pdf
+│   ├── APS_Target_List_NorthSeattle.pdf
+│   ├── aps_cascadia_qr inverted.svg
 │   └── aps_cascadia_qr.svg
 ├── index.html
 ├── media/
 │   ├── NationalPark-VariableVF.ttf
 │   ├── aps_cascadia_logo.svg
+│   ├── aps_cascadia_qr inverted.svg
 │   ├── aps_cascadia_qr.svg
 │   └── favicon.png
 ├── privacy.html
@@ -49,4 +56,3 @@ aps_project/
         ├── APS_Biblio_Methodology.pdf
         ├── APS_Biblio_NightAssault.pdf
         └── APS_Biblio_Simulation.pdf
-
