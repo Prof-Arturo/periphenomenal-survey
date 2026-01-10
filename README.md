@@ -31,14 +31,13 @@
 * `APS Business Card back.pdf` _(Print Asset)_
 * `APS Business Card front.pdf` _(Print Asset)_
 * `APS_Mission_Statement_Cascadia.pdf` _(Regional Mandate)_
-* `APS_Org_Structure.pdf` _(Role Definitions)_
+* `APS_Operations_Manual_Reg10.pdf` _(Consolidated SOP & Hierarchy)_
 * `APS_Project_Manifest.pdf` _(Master Inventory)_
 * `APS_Strategic_Launch_Plan.txt` _(Master Strategy)_
 * `APS_Technical_Launch_Guide.txt` _(Digital Deployment)_
 * `APS_Territorial_Map.txt` _(Bioregion Definitions)_
 * `APS_Territorial_Map_Quick_Ref.pdf` _(Map Reference)_
 * `APS_Territorial_Map_Schematic.txt` _(Schematic Data)_
-* `APS_Workflow_Cascadia.pdf` _(SOP)_
 * `aps_composite_map.svg` _(Visual Command Map)_
 * `aps_file_structure.txt` _(Directory Tree)_
 * `franchise_deployment_guide.txt` _(Expansion Kit)_
@@ -64,9 +63,7 @@
 #### **`/registry_data/`** (Archival)
 * `APS_Cascadia_Log.csv` _(Master Database - CSV)_
 * `APS_Cascadia_Log.xlsx` _(Master Database - Excel)_
-* `APS_Data_Log_Schema.pdf` _(Database Structure)_
-* `APS_Master_Coding_Sheet.pdf` _(Analyst Cheat Sheet v3.1)_
-* `APS_Master_Data_Dictionary.pdf` _(Coding Definitions v3.1)_
+* `APS_Master_Data_Protocol.pdf` _(Master Schema & Definitions v3.0)_
 * `aps_intake_script.js` _(Backend Logic Backup)_
 * **`/APS_Cascadia_Log_Backups/` (Snapshots)**
     * `APS_Cascadia_Log_Backup_2026-01-08.csv` _(Daily Archive)_
