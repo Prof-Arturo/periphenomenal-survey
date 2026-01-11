@@ -1,0 +1,128 @@
+APS DIRECTORATE | STRATEGIC DOC 05
+SUBJECT: REGIONAL DIVISION APPLICATION (FRANCHISE KIT)
+CLASSIFICATION: EXTERNAL / INTERNAL (SEE SECTIONS)
+DATE: 2026-01-11
+-------------------------------------------------------------------------
+
+SECTION 1.0: LETTER OF INTENT (CANDIDATE INTAKE FORM)
+[INSTRUCTION]: To be completed by the prospective Regional Director and 
+submitted to the Directorate via encrypted email.
+
+    1.1 CANDIDATE PROFILE
+    ---------------------
+    FULL NAME: __________________________________________________________
+    CURRENT LOCATION: ___________________________________________________
+    PROFESSIONAL BACKGROUND: ____________________________________________
+    (e.g., Academic, Archivist, Data Science, Forestry)
+
+    1.2 JURISDICTIONAL DEFINITION
+    -----------------------------
+    PROPOSED DIVISION (BIOREGION): ______________________________________
+    (e.g., Appalachia, Great Lakes, Ozarks, Southwest)
+
+    PRIMARY TERRITORY (STATES/PROVINCES): _______________________________
+    
+    BIOREGIONAL JUSTIFICATION: 
+    Why does this specific geographic area require a dedicated Division? 
+    Cite specific geological or folklore features (e.g., "The Mammoth 
+    Cave system defines the liminal geography of this zone.")
+    _____________________________________________________________________
+    _____________________________________________________________________
+    _____________________________________________________________________
+
+    1.3 TECHNICAL & LOGISTICAL AUDIT
+    --------------------------------
+    [ ] YES  [ ] NO   Do you possess the proficiency to manage a Google 
+                      Script deployment and edit basic HTML/JS?
+    
+    [ ] YES  [ ] NO   Can you commit to the "Privacy Scrub" protocol 
+                      (anonymizing PII) on a weekly basis?
+
+    1.4 METHODOLOGICAL ALIGNMENT
+    ----------------------------
+    The APS operates under "Methodological Agnosticism." If a user submits 
+    a report claiming an "Abduction by Demons," how do you classify and 
+    respond to this entry?
+    _____________________________________________________________________
+    _____________________________________________________________________
+
+    What is your stance on "Proving" phenomena? (Do you intend to hunt 
+    for evidence, or archive narrative experience?)
+    _____________________________________________________________________
+    _____________________________________________________________________
+
+    1.5 OPERATIONAL STRATEGY
+    ------------------------
+    How do you plan to seed your initial database? (e.g., Archive research,
+    Reddit outreach, Physical flyer deployment?)
+    _____________________________________________________________________
+    _____________________________________________________________________
+
+    [ STATEMENT OF COMPLIANCE ]
+    By submitting this Letter of Intent, I acknowledge that the APS is an 
+    academic archival body. I agree to uphold the Directorate's standards 
+    of privacy, design, and neutrality.
+
+    SIGNATURE: ______________________________  DATE: ____________________
+
+
+=========================================================================
+DO NOT DISTRIBUTE BELOW THIS LINE - DIRECTORATE USE ONLY
+=========================================================================
+
+
+SECTION 2.0: INTERVIEW PROTOCOL (VETTING SCRIPT)
+[INSTRUCTION]: Use this script during the Voice/Video interview to assess
+candidate suitability for Division Leadership.
+
+    2.1 PHASE I: THE "VIBE CHECK" (CULTURAL ALIGNMENT)
+    --------------------------------------------------
+    GOAL: Determine if candidate shares the "Design Language" and ethical
+    framework. We protect the brand tone to ensure high-quality data.
+
+    Q1: "Tell me about your favorite local legend or 'High Strangeness' 
+        location. Not the famous one, but the weird one."
+        > TARGET: Niche knowledge, folklore passion.
+        > RED FLAG: "Ghost Adventures" fandom or reality TV style.
+
+    Q2: "This project is 90% spreadsheets and reading emails. Are you 
+        prepared for the administrative load, or are you seeking field action?"
+        > TARGET: Appreciation for data hygiene.
+        > RED FLAG: Desire for "hunting" or thrill-seeking.
+
+    2.2 PHASE II: THE STRESS TEST (SAFETY & ETHICS)
+    -----------------------------------------------
+    GOAL: Ensure candidate will not engage in dangerous roleplay.
+
+    Q3: "A user submits a report saying they are currently being stalked 
+        by an entity and are terrified. They ask for help. Action?"
+        > PASS: Refer to mental health resources/police. Archive data.
+        > FAIL: Offer "protection," spiritual cleansing, or investigation.
+
+    Q4: "Someone accuses the project of being a LARP on a local forum. 
+        How do you respond?"
+        > PASS: "We do not confirm or deny. We document stories."
+        > FAIL: Arguing, trying to prove reality, or breaking character.
+
+    2.3 PHASE III: THE TECHNICAL AUDIT
+    ----------------------------------
+    GOAL: Assess maintenance load.
+
+    Q5: "Are you comfortable forking a GitHub repo and hosting via Pages?"
+        > PASS: Self-sufficient.
+        > PROBATION: Needs Directorate to host (Higher Admin Load).
+
+    2.4 DECISION MATRIX
+    -------------------
+    [ ] APPROVE:   Candidate understands Agnosticism + Has Tech Skills.
+                   ACTION: Issue Region Code (e.g., APP-). Send Kit.
+
+    [ ] PROBATION: Passionate but non-technical.
+                   ACTION: Grant "Field Researcher" status only.
+
+    [ ] REJECT:    Wants to hunt ghosts, monetize, or evangelize.
+                   ACTION: Standard Rejection Letter (Form DIR-09).
+
+-------------------------------------------------------------------------
+Property of the APS Directorate. 
+Methodological Agnosticism Observed.

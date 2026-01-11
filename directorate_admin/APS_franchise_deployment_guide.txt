@@ -1,0 +1,95 @@
+APS DIRECTORATE | STRATEGIC DOC 04
+SUBJECT: DIVISION ACTIVATION PROTOCOL (REGIONAL EXPANSION)
+CLASSIFICATION: INTERNAL USE ONLY
+-------------------------------------------------------------------------
+
+1.0 THE MANDATE FOR EXPANSION
+The American Periphenomenal Survey (APS) operates on a bioregional framework. 
+While the Directorate oversees Region 10 (Cascadia), high-strangeness data 
+is geographically distinct. To capture the full spectrum of North American 
+folklore and anomaly, we authorize the commissioning of semi-autonomous 
+"Divisions" in other bioregions (e.g., Appalachia, Ozarks, Southwest).
+
+This document outlines the protocol for vetting, provisioning, and activating 
+a new Regional Division.
+
+2.0 THE "FRANCHISE" MODEL (FEDERATED DATA)
+We do not manage remote field teams. We commission "Regional Directors."
+A Regional Director is granted a license to use the APS branding, 
+methodology, and digital infrastructure in exchange for data standardization.
+
+    [ THE DEAL ]
+    > DIRECTORATE PROVIDES:   Brand Legitimacy, Digital Templates, Field Manuals.
+    > DIVISION PROVIDES:      Local Labor, Hosting Costs (Free via Google), Data Access.
+
+3.0 ACTIVATION PHASES
+
+    PHASE I: VETTING (The Application)
+    ----------------------------------
+    Prospective Directors must submit a "Letter of Intent" to the Directorate.
+    They must demonstrate:
+    A) Academic Detachment (Methodological Agnosticism).
+    B) Technical Competence (Ability to manage a Google Sheet/Script).
+    C) Bioregional Knowledge (Define their specific territory).
+
+    *CRITICAL:* We strictly reject "Ghost Hunting" groups seeking validation. 
+    The APS is an archival body, not a paranormal investigation team.
+
+    PHASE II: PROVISIONING (The Kit)
+    --------------------------------
+    Once approved, the Division receives the "Deployment Archive":
+    
+    1. DIGITAL INFRASTRUCTURE:
+       - The GitHub Repository (Cloned Website).
+       - The Google Sheet Template (Pre-formatted Headers).
+       - The Apps Script Code (customized with their Region Code, e.g., APP-).
+    
+    2. PRINT ASSETS (Editable PDFs):
+       - Field Manual (Region Code updated).
+       - ID Cards / Business Cards.
+       - QR Stickers (Customized URL).
+
+    3. BRANDING:
+       - A localized Logo Seal (e.g., "APPALACHIA DIVISION" with local flora/fauna).
+         *Note: Directorate creates the logo to ensure brand consistency.*
+
+    PHASE III: INITIALIZATION
+    -------------------------
+    1. The Division launches their local interface (e.g., aps-appalachia.org or subdomain).
+    2. They conduct a "Dry Run" (5 test entries).
+    3. They grant the Directorate "Viewer" access to their Master Log.
+
+4.0 OPERATIONAL STANDARDS (THE CHARTER)
+
+    [1] DATA SOVEREIGNTY
+    Each Division owns their data. They are responsible for privacy scrubbing.
+    However, the Directorate retains the right to aggregate anonymized 
+    narratives for the "National Index."
+
+    [2] UNIFORMITY OF METHOD
+    Divisions must use the Standard Typology (Type I-V) and the standard 
+    checkboxes. Custom fields require Directorate approval to prevent 
+    database fragmentation.
+
+    [3] BRAND PROTECTION
+    Divisions may NOT use the APS name to sell merchandise, solicit donations 
+    for profit, or endorse political/religious stances. 
+    Violation results in immediate "Decommissioning" (URL revocation).
+
+5.0 REGION CODES (NOMENCLATURE)
+    New Divisions are assigned a 3-letter prefix for their Case IDs.
+
+    REGION 10: Cascadia       [CAS-XXXX] (Active)
+    REGION 01: New England    [NEG-XXXX]
+    REGION 03: Appalachia     [APP-XXXX]
+    REGION 06: Great Lakes    [LKS-XXXX]
+    REGION 08: Southwest      [DSW-XXXX]
+
+6.0 EXIT PROTOCOL
+    If a Regional Director resigns, they must either:
+    A) Transfer ownership of the Google Sheet/Domain to a successor.
+    B) Export all CSV data to the Directorate before deletion.
+
+-------------------------------------------------------------------------
+Property of the APS Directorate. 
+Methodological Agnosticism Observed.
