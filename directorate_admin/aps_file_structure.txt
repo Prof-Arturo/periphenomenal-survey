@@ -4,15 +4,14 @@ aps_project/
 ├── directorate_admin/
 │   ├── APS Business Card back.pdf
 │   ├── APS Business Card front.pdf
-│   ├── APS_Mission_Statement_Cascadia.pdf
-│   ├── APS_Org_Structure.pdf
+│   ├── APS_Mission_Statement_Cascadia_v2.pdf
+│   ├── APS_Operations_Manual_Reg10.pdf
 │   ├── APS_Project_Manifest.pdf
 │   ├── APS_Strategic_Launch_Plan.txt
 │   ├── APS_Technical_Launch_Guide.txt
 │   ├── APS_Territorial_Map.txt
 │   ├── APS_Territorial_Map_Quick_Ref.pdf
 │   ├── APS_Territorial_Map_Schematic.txt
-│   ├── APS_Workflow_Cascadia.pdf
 │   ├── aps_composite_map.svg
 │   ├── aps_file_structure.txt
 │   ├── branding_assets/
@@ -22,13 +21,12 @@ aps_project/
 │   └── franchise_deployment_guide.txt
 ├── field_kits/
 │   ├── APS QR Stickers_v2.pdf
-│   ├── APS_Debriefing_Protocol.pdf
+│   ├── APS_Debriefing_Protocol_Training.pdf
 │   ├── APS_Field_Instrument_Reg10.pdf
 │   ├── APS_Field_Manual_Reg10.pdf
-│   ├── APS_Field_Ops_Protocol.txt
+│   ├── APS_Field_Manual_Reg10_booklet.pdf
 │   ├── APS_Field_Questionnaire.pdf
 │   ├── APS_Recruitment_Flyer.pdf
-│   ├── APS_Resource_Card_Cascadia.docx
 │   ├── APS_Resource_Card_Cascadia.pdf
 │   ├── APS_Target_List_NorthSeattle.pdf
 │   ├── aps_cascadia_qr inverted.svg
@@ -42,15 +40,15 @@ aps_project/
 │   └── favicon.png
 ├── privacy.html
 ├── registry.html
+├── resources.html
 └── registry_data/
     ├── APS_Cascadia_Log.csv
     ├── APS_Cascadia_Log.xlsx
     ├── APS_Cascadia_Log_Backups/
     │   ├── APS_Cascadia_Log_Backup_2026-01-08.csv
     │   └── APS_Cascadia_Log_Backup_2026-01-08.xlsx
-    ├── APS_Data_Log_Schema.pdf
-    ├── APS_Master_Coding_Sheet.pdf
-    ├── APS_Master_Data_Dictionary.pdf
+    ├── APS_Cascadia_Log_master_headers.csv
+    ├── APS_Master_Data_Protocol.pdf
     ├── aps_intake_script.js
     └── library/
         ├── APS_Biblio_Cryptozoology.pdf
