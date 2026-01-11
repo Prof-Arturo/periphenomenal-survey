@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>APS Cascadia | Public Registry</title>
+    <link rel="icon" type="image/png" href="media/favicon.png">
     <style>
-        /* --- ACADEMIC / FEDERAL STYLING --- */
+        /* --- ACADEMIC / FEDERAL STYLING (v3.0) --- */
         @font-face {
             font-family: 'NationalPark';
             src: url('media/NationalPark-VariableVF.ttf') format('truetype');
@@ -63,6 +64,7 @@
             background: #fff;
             margin-bottom: 20px;
             font-size: 1rem;
+            box-sizing: border-box;
         }
 
         /* DATA TABLE */
@@ -71,6 +73,7 @@
             border-collapse: collapse;
             font-size: 0.95rem;
             border: 1px solid var(--primary);
+            background: #fff;
         }
 
         .registry-table th {
@@ -95,29 +98,26 @@
         }
 
         /* COLUMN STYLES */
-        .col-id { font-family: 'Courier New', monospace; font-weight: bold; width: 100px; }
+        .col-id { font-family: 'Courier New', monospace; font-weight: bold; width: 110px; color: var(--accent); }
         .col-date { font-family: 'Courier New', monospace; width: 100px; }
-        .col-loc { font-weight: bold; width: 150px; }
+        .col-loc { font-weight: bold; width: 180px; }
         .col-narrative { } 
         
-        /* TAGS */
-        .tag {
-            display: inline-block;
-            background: var(--accent);
-            color: #fff;
-            padding: 2px 6px;
-            font-size: 0.7rem;
-            border-radius: 2px;
-            margin-right: 4px;
-            font-family: sans-serif;
-            text-transform: uppercase;
-        }
-
         .loading {
             text-align: center;
             padding: 40px;
             font-family: 'Courier New', monospace;
             font-style: italic;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 600px) {
+            .col-date, .col-id { display: block; width: 100%; }
+            .registry-table th { display: none; }
+            .registry-table td { display: block; border: none; padding: 2px 10px; }
+            .registry-table tr { border-bottom: 1px solid #000; padding: 10px 0; display: block; }
+            .col-loc { margin-top: 5px; color: var(--accent); }
+            .col-narrative { padding-bottom: 15px; }
         }
 
     </style>
@@ -150,13 +150,14 @@
 
     <div style="margin-top: 40px; border-top: 1px solid #000; padding-top: 10px; font-size: 0.8rem; text-align: center; opacity: 0.7;">
         APS Directorate | Cascadia Division<br>
-        <em>All entries anonymized per privacy protocol.</em>
+        <em>All entries anonymized per privacy protocol.</em><br>
+        <a href="index.html" style="color: var(--primary); text-decoration: none;">[ Submit New Report ]</a>
     </div>
 </div>
 
 <script>
     // --- CONFIGURATION ---
-    // Keep your existing URL with the single quotes
+    // IMPORTANT: Verify that this URL points to the published CSV of your 'PUBLIC_VIEW' tab
     const sheet_csv_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRpL2q_JAf_vIdWYrbN3hQ8Bypm0ihsOT5BWYOXnnbA1GYjXOV_Ftk9YRSKXJBnv7hgduSjHWMIeWoG/pub?gid=1871137459&single=true&output=csv'; 
 
     // --- LOGIC ---
@@ -165,7 +166,7 @@
             const response = await fetch(sheet_csv_url);
             const data = await response.text();
             
-            // ROBUST CSV PARSER (Handles newlines and commas inside quotes)
+            // ROBUST CSV PARSER
             const rows = parseCSV(data);
             
             const tableBody = document.getElementById('tableBody');
@@ -175,15 +176,15 @@
             for (let i = 1; i < rows.length; i++) {
                 const cols = rows[i];
                 
-                // Ensure row has enough data (cols length matches your QUERY selection count)
+                // Ensure row has data (matches Query Selection Count)
                 if (cols.length >= 4) { 
                     const tr = document.createElement('tr');
                     
-                    // MAPPING (Based on your QUERY: Select A, B, W, AO)
+                    // MAPPING (Based on New Query: SELECT A, B, S, I)
                     // Col 0 = Timestamp (A)
                     // Col 1 = Log ID (B)
-                    // Col 2 = Narrative (W)
-                    // Col 3 = Location Specific (AO)
+                    // Col 2 = Narrative (S)  <-- UPDATED V3.0
+                    // Col 3 = Location (I)   <-- UPDATED V3.0
 
                     const date = cols[0].split(' ')[0]; // Just the date
                     const id = cols[1];
@@ -202,35 +203,29 @@
 
         } catch (error) {
             console.error('Error:', error);
-            document.getElementById('tableBody').innerHTML = '<tr><td colspan="4">Error loading archive. System offline.</td></tr>';
+            document.getElementById('tableBody').innerHTML = '<tr><td colspan="4" class="loading">Error loading archive. System offline.</td></tr>';
         }
     }
 
     // --- HELPER: CSV PARSER ---
-    // This handles "quoted text, with commas" and multiline entries
+    // Handles quoted text with commas (e.g., "Seattle, WA")
     function parseCSV(str) {
         const arr = [];
-        let quote = false;  // 'true' means we're inside a quoted field
+        let quote = false;  
         let row = 0, col = 0, c = 0;
 
         for (; c < str.length; c++) {
-            let cc = str[c], nc = str[c + 1];        // Current char, Next char
-            arr[row] = arr[row] || [];             // Create a new row if needed
-            arr[row][col] = arr[row][col] || '';   // Create a new column if needed
+            let cc = str[c], nc = str[c + 1];        
+            arr[row] = arr[row] || [];             
+            arr[row][col] = arr[row][col] || '';   
 
-            // If the current character is a quote
-            if (cc == '"' && quote && nc == '"') { arr[row][col] += cc; ++c; continue; } // Handle escaped quotes ("")
+            if (cc == '"' && quote && nc == '"') { arr[row][col] += cc; ++c; continue; } 
             if (cc == '"') { quote = !quote; continue; }
-
-            // If comma (and not inside quotes) -> Next Column
             if (cc == ',' && !quote) { ++col; continue; }
-
-            // If newline (and not inside quotes) -> Next Row
             if (cc == '\r' && nc == '\n' && !quote) { ++row; col = 0; ++c; continue; }
             if (cc == '\n' && !quote) { ++row; col = 0; continue; }
             if (cc == '\r' && !quote) { ++row; col = 0; continue; }
 
-            // Otherwise, add the character to the current cell
             arr[row][col] += cc;
         }
         return arr;
@@ -242,15 +237,19 @@
         const filter = input.value.toUpperCase();
         const table = document.getElementById("dataTable");
         const tr = table.getElementsByTagName("tr");
+        let hasVisible = false;
 
-        for (let i = 0; i < tr.length; i++) { // Loop through data rows
+        for (let i = 0; i < tr.length; i++) { 
             let text = tr[i].textContent || tr[i].innerText;
             if (text.toUpperCase().indexOf(filter) > -1) {
                 tr[i].style.display = "";
+                hasVisible = true;
             } else {
                 tr[i].style.display = "none";
             }
         }
+        
+        // Optional: Handle "No Results" state could go here
     }
 
     // Load data on page load
