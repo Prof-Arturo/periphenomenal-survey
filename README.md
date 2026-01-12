@@ -62,7 +62,6 @@
 * `aps_cascadia_qr.svg` _(Vector Scan Code)_
 
 #### **`/registry_data/`** (Archival)
-* `APS_Cascadia_Log.csv` _(Master Database - CSV)_
 * `APS_Cascadia_Log.xlsx` _(Master Database - Excel)_
 * `APS_Cascadia_Log_master_headers.csv` _(Schema Template)_
 * `APS_Master_Data_Protocol.pdf` _(Master Schema & Definitions v3.0)_
