@@ -4,6 +4,8 @@ aps_project/
 ├── directorate_admin/
 │   ├── APS Business Card back.pdf
 │   ├── APS Business Card front.pdf
+│   ├── APS_Franchise_Application_Kit.txt
+│   ├── APS_Franchise_Deployment_Guide.txt
 │   ├── APS_Mission_Statement_Cascadia_v2.pdf
 │   ├── APS_Operations_Manual_Reg10.pdf
 │   ├── APS_Project_Manifest.pdf
@@ -14,11 +16,10 @@ aps_project/
 │   ├── APS_Territorial_Map_Schematic.txt
 │   ├── aps_composite_map.svg
 │   ├── aps_file_structure.txt
-│   ├── branding_assets/
-│   │   ├── APS_logo_cascadia.svg
-│   │   ├── APS_logo_master.svg
-│   │   └── NationalPark-All-Fonts.zip
-│   └── franchise_deployment_guide.txt
+│   └── branding_assets/
+│       ├── APS_logo_cascadia.svg
+│       ├── APS_logo_master.svg
+│       └── NationalPark-All-Fonts.zip
 ├── field_kits/
 │   ├── APS QR Stickers_v2.pdf
 │   ├── APS_Debriefing_Protocol_Training.pdf
@@ -40,21 +41,22 @@ aps_project/
 │   └── favicon.png
 ├── privacy.html
 ├── registry.html
-├── resources.html
-└── registry_data/
-    ├── APS_Cascadia_Log.csv
-    ├── APS_Cascadia_Log.xlsx
-    ├── APS_Cascadia_Log_Backups/
-    │   ├── APS_Cascadia_Log_Backup_2026-01-08.csv
-    │   └── APS_Cascadia_Log_Backup_2026-01-08.xlsx
-    ├── APS_Cascadia_Log_master_headers.csv
-    ├── APS_Master_Data_Protocol.pdf
-    ├── aps_intake_script.js
-    └── library/
-        ├── APS_Biblio_Cryptozoology.pdf
-        ├── APS_Biblio_HighStrangeness.pdf
-        ├── APS_Biblio_Liminality.pdf
-        ├── APS_Biblio_Master_Index.txt
-        ├── APS_Biblio_Methodology.pdf
-        ├── APS_Biblio_NightAssault.pdf
-        └── APS_Biblio_Simulation.pdf
+├── registry_data/
+│   ├── APS_Cascadia_Log.xlsx
+│   ├── APS_Cascadia_Log_Backups/
+│   │   ├── APS_Cascadia_Log - _ARCHIVE_V2_DATA.csv
+│   │   ├── APS_Cascadia_Log_Backup_2026-01-08.csv
+│   │   ├── APS_Cascadia_Log_Backup_2026-01-08.xlsx
+│   │   └── APS_Cascadia_Log_review_2026_01_11.csv
+│   ├── APS_Cascadia_Log_master_headers.csv
+│   ├── APS_Master_Data_Protocol.pdf
+│   ├── aps_intake_script.js
+│   └── library/
+│       ├── APS_Biblio_Cryptozoology.pdf
+│       ├── APS_Biblio_HighStrangeness.pdf
+│       ├── APS_Biblio_Liminality.pdf
+│       ├── APS_Biblio_Master_Index.txt
+│       ├── APS_Biblio_Methodology.pdf
+│       ├── APS_Biblio_NightAssault.pdf
+│       └── APS_Biblio_Simulation.pdf
+└── resources.html
