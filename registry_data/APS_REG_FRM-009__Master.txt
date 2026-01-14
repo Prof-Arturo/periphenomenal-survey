@@ -1,0 +1,83 @@
+
+
+
+📖 APS Internal Archive Log
+Study: The American Periphenomenal Survey 
+Division: Registry Division		| Region: 🌲Cascadia (Reg10)
+Status: CLASSIFIED / CONTAINS PII  	| Form: FRM-009
+
+
+[ SECTION 1: SYSTEM METADATA ]
+LOG ID:            CAS-____________       TIMESTAMP: ____/____/____ __:__
+ENGAGEMENT STATUS: [ ] PENDING  [ ] SPAM  [ ] VERIFIED_WEB  [ ] FIELD
+RES_ID (Analyst):  ________________       CLASS CODE: [ ] TYPE_I   [ ] TYPE_II
+                                                      [ ] TYPE_III [ ] TYPE_IV
+                                                      [ ] TYPE_V
+
+[ SECTION 2: SUBJECT PROFILE (Review For PII) ]
+AGE GROUP:    [ ] 18-25  [ ] 26-35  [ ] 36-45  [ ] 46-55  [ ] 56+
+GENDER:       ____________________
+OCCUPATION:   ____________________ (Verification Marker)
+CULTURAL BG:  ____________________
+CONTACT INFO: ____________________ (EMAIL/PHONE - DO NOT PUBLISH)
+PERMISSION:   [ ] PUBLISH_ANON     [ ] PRIVATE_DATA
+
+[ SECTION 3: EVENT CONTEXT ]
+JURISDICTION (State): [ ] WA  [ ] OR  [ ] ID  [ ] BC  [ ] AK_SE  [ ] NORCAL
+LOCATION SPECIFIC:    ___________________________________________________
+SETTING TYPE:         [ ] RES (Home)  [ ] LIM (Road/Transit)
+                      [ ] NAT (Wilderness) [ ] COM (Public/Ind)
+WITNESS STATUS:       [ ] ALONE  [ ] WITNESS_1 (Pair)  [ ] GROUP (3+)
+ENV WEATHER:          [ ] CLEAR  [ ] RAIN  [ ] STORM  [ ] FOG  [ ] OZ
+ENV NOISE:            [ ] SILENT [ ] HUM   [ ] TRAFFIC [ ] NATURE
+
+
+[ SECTION 4: PHENOMENOLOGY FLAGS ]
+[ ] PHENOM_SILENCE   (The "Oz Factor")
+[ ] PHENOM_HUM       (Mechanical Vibration/Static)
+[ ] PHENOM_TIME      (Missing Time/Distortion)
+[ ] PHENOM_NAUSEA    (Somatic/Vertigo)
+[ ] PHENOM_PARALYSIS (Involuntary Immobility)
+[ ] PHENOM_TECH      (Drain/Glitch/Failure)
+[ ] PHENOM_OZONE     (Olfactory Anomaly)
+[ ] PHENOM_FEAR      (Acute/Irrational Dread)
+
+-------------------------------------------------------------------------
+
+[ SECTION 5: NARRATIVE & OBSERVATION ]
+OBSERVED DEMEANOR: [ ] CALM   [ ] AGITATED   [ ] INTENSE   [ ] SKEPTICAL
+OBSERVED DELIVERY: [ ] FLUID  [ ] FRAGMENTED [ ] REHEARSED [ ] PRESSURED
+
+NARRATIVE TRANSCRIPT (Review & Redact PII):
+_________________________________________________________________________
+_________________________________________________________________________
+_________________________________________________________________________
+_________________________________________________________________________
+_________________________________________________________________________
+_________________________________________________________________________
+_________________________________________________________________________
+_________________________________________________________________________
+_________________________________________________________________________
+_________________________________________________________________________
+_________________________________________________________________________
+_________________________________________________________________________
+
+ATTRIBUTION (Subject's Theory):
+_________________________________________________________________________
+_________________________________________________________________________
+_________________________________________________________________________
+
+[ SECTION 6: ANALYST NOTES ]
+(Internal comments, debunking notes, or cross-reference flags)
+___________________________________________________________________________________
+___________________________________________________________________________________
+___________________________________________________________________________________
+___________________________________________________________________________________
+
+DISPOSITION: [ ] ARCHIVE (Credible) [ ] DEBUNK (Identified) [ ] SPAM (Discard)
+
+ANALYST SIG: _______________________________________________ DATE: ____/____/20____
+
+-----------------------------------------------------------------------------------
+PROPERTY OF THE AMERICAN PERIPHENOMENAL SURVEY. 
+METHODOLOGICAL AGNOSTICISM OBSERVED.
