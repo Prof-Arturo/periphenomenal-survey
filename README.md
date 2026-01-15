@@ -44,9 +44,9 @@
 * `aps_composite_map.svg` _(Visual Command Map)_
 * `aps_file_structure.txt` _(Directory Tree)_
 * **`/branding_assets/` (Master Files)**
-    * `APS_logo_cascadia.svg` _(Vector Source)_
-    * `APS_logo_master.svg` _(Generic Seal)_
     * `NationalPark-All-Fonts.zip`
+    * `aps_cascadia_logo.svg` _(Vector Source)_
+    * `aps_logo_main.svg` _(Generic Seal)_
 
 #### **`/field_kits/`** (Acquisition Tools)
 * `APS QR Stickers_v2.pdf` _(Sticker Assets)_
@@ -65,11 +65,14 @@
 * `APS_Cascadia_Log.xlsx` _(Master Database - Excel)_
 * `APS_Cascadia_Log_master_headers.csv` _(Schema Template)_
 * `APS_Master_Data_Protocol.pdf` _(Master Schema & Definitions v3.0)_
+* `APS_REG_FRM-009__Master.pdf` _(Internal Archive Template - Print)_
+* `APS_REG_FRM-009__Master.txt` _(Internal Archive Template - Text)_
 * `aps_intake_script.js` _(Backend Logic Backup)_
 * **`/APS_Cascadia_Log_Backups/` (Snapshots)**
     * `APS_Cascadia_Log - _ARCHIVE_V2_DATA.csv` _(Legacy Data)_
     * `APS_Cascadia_Log_Backup_2026-01-08.csv` _(Daily Archive)_
     * `APS_Cascadia_Log_Backup_2026-01-08.xlsx` _(Daily Archive)_
+    * `APS_Cascadia_Log_Reviewed_2026-01-11.xlsx` _(Weekly Audit)_
     * `APS_Cascadia_Log_review_2026_01_11.csv` _(Weekly Audit)_
 * **`/library/` (Reference)**
     * `APS_Biblio_Cryptozoology.pdf` 🐾
