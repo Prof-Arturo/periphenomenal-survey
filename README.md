@@ -6,7 +6,7 @@
 
 > **The American Periphenomenal Survey does not hunt ghosts. We study the ecology of the unknown.**
 >
-> Traditional investigation focuses on *what* was seen. We focus on *where* and *how* it was experienced. By analyzing the environmental triggers—liminal spaces, infrasound, and isolation—we map the conditions that allow these phenomena to manifest at the edges of human perception.
+> Traditional investigation focuses on *what* was seen. We focus on *where* and *how* it was experienced. By analyzing the environmental triggers-such as liminal spaces, infrasound, and isolation-we map the conditions that allow these phenomena to manifest at the edges of human perception.
 >
 > We call these **Periphenomena**: events that exist not 'beyond' reality, but on its periphery.
 >
