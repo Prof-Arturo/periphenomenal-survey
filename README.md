@@ -1,5 +1,5 @@
 # 🧭 American Periphenomenal Survey (APS)
-### 🌲 CASCADIA DIVISION 🌲
+### 🌲 REGION 10 (CASCADIA) 🌲
 *Systematic Documentation of Anomalous Experience in the Pacific Northwest*
 
 ---
@@ -15,15 +15,15 @@
 
 ---
 
-## 🔐 Division Access
+## 🔐 Region 10 Access
 *Authorized Field Researchers Only*
 
-* **[>> 📊 Access Cascadia Data Log](https://docs.google.com/spreadsheets/d/1FYre5TV6QuT-pY58apgDjkniJb1nM4l7JfQUO5IcXXc/edit?usp=sharing)**
-* **[>> 🌐 Launch Division Interface](https://www.aps-project.org/)**
+* **[>> 📊 Access Reg10 Data Log](https://docs.google.com/spreadsheets/d/1FYre5TV6QuT-pY58apgDjkniJb1nM4l7JfQUO5IcXXc/edit?usp=sharing)**
+* **[>> 🌐 Launch Regional Interface](https://www.aps-project.org/)**
 
 ---
 
-## 📂 Division Asset Map
+## 📂 Region 10 Asset Map
 
 ### **`/aps_project/` (Root)**
 * `CNAME` _(Domain Configuration)_
