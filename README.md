@@ -18,7 +18,7 @@
 ## 🔐 Region 10 Access
 *Authorized Field Researchers Only*
 
-* **[>> 📊 Access Reg10 Data Log](https://docs.google.com/spreadsheets/d/1FYre5TV6QuT-pY58apgDjkniJb1nM4l7JfQUO5IcXXc/edit?usp=sharing)**
+* **[>> 📊 Access Cascadia Data Log](https://docs.google.com/spreadsheets/d/1FYre5TV6QuT-pY58apgDjkniJb1nM4l7JfQUO5IcXXc/edit?usp=sharing)**
 * **[>> 🌐 Launch Regional Interface](https://www.aps-project.org/)**
 
 ---
