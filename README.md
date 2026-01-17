@@ -15,7 +15,7 @@
 
 ---
 
-## 🔐 Region 10 Access
+## 🔐 Regional Access
 *Authorized Field Researchers Only*
 
 * **[>> 📊 Access Cascadia Data Log](https://docs.google.com/spreadsheets/d/1FYre5TV6QuT-pY58apgDjkniJb1nM4l7JfQUO5IcXXc/edit?usp=sharing)**
