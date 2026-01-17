@@ -6,7 +6,7 @@
     <title>APS Cascadia | Public Registry</title>
     <link rel="icon" type="image/png" href="media/favicon.png">
     <style>
-        /* --- ACADEMIC / FEDERAL STYLING (v3.0) --- */
+        /* --- ACADEMIC / FEDERAL STYLING (v3.1) --- */
         @font-face {
             font-family: 'NationalPark';
             src: url('media/NationalPark-VariableVF.ttf') format('truetype');
@@ -30,7 +30,7 @@
         }
 
         .container {
-            max-width: 1000px;
+            max-width: 1100px; /* Widened slightly for the new column */
             margin: 0 auto;
         }
 
@@ -98,9 +98,18 @@
         }
 
         /* COLUMN STYLES */
-        .col-id { font-family: 'Courier New', monospace; font-weight: bold; width: 110px; color: var(--accent); }
-        .col-date { font-family: 'Courier New', monospace; width: 100px; }
-        .col-loc { font-weight: bold; width: 180px; }
+        .col-id { font-family: 'Courier New', monospace; font-weight: bold; width: 100px; color: var(--accent); }
+        .col-date { font-family: 'Courier New', monospace; width: 90px; }
+        .col-loc { font-weight: bold; width: 160px; }
+        
+        /* NEW: TYPE COLUMN STYLING */
+        .col-type { 
+            width: 60px; 
+            text-align: center; 
+            font-size: 1.4rem; /* Emoji Size */
+            cursor: help;
+        }
+        
         .col-narrative { } 
         
         .loading {
@@ -110,13 +119,54 @@
             font-style: italic;
         }
 
+        /* LEGEND TABLE STYLING */
+        .legend-container {
+            margin-top: 40px;
+            border: 2px solid var(--primary);
+            background: #fff;
+            padding: 15px;
+        }
+
+        .legend-title {
+            font-family: 'NationalPark', sans-serif;
+            text-transform: uppercase;
+            border-bottom: 1px solid var(--primary);
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+        }
+
+        .legend-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+
+        .legend-table td {
+            padding: 5px;
+            border-bottom: 1px dotted #ccc;
+        }
+
+        .legend-glyph {
+            font-size: 1.5rem;
+            text-align: center;
+            width: 50px;
+        }
+
+        .legend-code {
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+            color: var(--accent);
+            width: 120px;
+        }
+
         /* RESPONSIVE */
-        @media (max-width: 600px) {
+        @media (max-width: 700px) {
             .col-date, .col-id { display: block; width: 100%; }
             .registry-table th { display: none; }
             .registry-table td { display: block; border: none; padding: 2px 10px; }
             .registry-table tr { border-bottom: 1px solid #000; padding: 10px 0; display: block; }
             .col-loc { margin-top: 5px; color: var(--accent); }
+            .col-type { text-align: left; margin-bottom: 5px; } /* Align emoji left on mobile */
             .col-narrative { padding-bottom: 15px; }
         }
 
@@ -138,15 +188,51 @@
                 <th>ID</th>
                 <th>Date</th>
                 <th>Location</th>
-                <th>Narrative</th>
+                <th style="text-align: center;">Type</th> <th>Narrative</th>
             </tr>
         </thead>
         <tbody id="tableBody">
             <tr>
-                <td colspan="4" class="loading">Connecting to Secure Server...</td>
+                <td colspan="5" class="loading">Connecting to Secure Server...</td>
             </tr>
         </tbody>
     </table>
+
+    <div class="legend-container">
+        <div class="legend-title">Classification Key (Periphenomena)</div>
+        <table class="legend-table">
+            <tr>
+                <td class="legend-glyph">🚪</td>
+                <td class="legend-code">TYPE I</td>
+                <td><strong>SPATIAL / LIMINAL</strong></td>
+                <td>Events defined by location (Roads, Doors, Fog). Reality feels "thin" or looping.</td>
+            </tr>
+            <tr>
+                <td class="legend-glyph">🐾</td>
+                <td class="legend-code">TYPE II</td>
+                <td><strong>CRYPTO-BIOLOGICAL</strong></td>
+                <td>Encounter with an unknown biological entity or cryptid.</td>
+            </tr>
+            <tr>
+                <td class="legend-glyph">🛸</td>
+                <td class="legend-code">TYPE III</td>
+                <td><strong>AERIAL / TECHNICAL</strong></td>
+                <td>Lights in sky, metallic craft, drone-like behavior, mechanical failure.</td>
+            </tr>
+            <tr>
+                <td class="legend-glyph">🛌</td>
+                <td class="legend-code">TYPE IV</td>
+                <td><strong>NOETIC / PSYCHIC</strong></td>
+                <td>Internal experience (Dreams, Premonitions, Synchronicities).</td>
+            </tr>
+            <tr>
+                <td class="legend-glyph">🪑</td>
+                <td class="legend-code">TYPE V</td>
+                <td><strong>POLTERGEIST</strong></td>
+                <td>Physical movement of objects, knocks, apports, or material interaction.</td>
+            </tr>
+        </table>
+    </div>
 
     <div style="margin-top: 40px; border-top: 1px solid #000; padding-top: 10px; font-size: 0.8rem; text-align: center; opacity: 0.7;">
         APS Directorate | Cascadia Division<br>
@@ -159,6 +245,17 @@
     // --- CONFIGURATION ---
     // IMPORTANT: Verify that this URL points to the published CSV of your 'PUBLIC_VIEW' tab
     const sheet_csv_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRpL2q_JAf_vIdWYrbN3hQ8Bypm0ihsOT5BWYOXnnbA1GYjXOV_Ftk9YRSKXJBnv7hgduSjHWMIeWoG/pub?gid=1871137459&single=true&output=csv'; 
+
+    // --- GLYPH MAPPER ---
+    // Converts CSV codes to Emojis
+    const typeMap = {
+        'TYPE_I':   { glyph: '🚪', title: 'TYPE I: SPATIAL' },
+        'TYPE_II':  { glyph: '🐾', title: 'TYPE II: CRYPTO-BIO' },
+        'TYPE_III': { glyph: '🛸', title: 'TYPE III: AERIAL' },
+        'TYPE_IV':  { glyph: '🛌', title: 'TYPE IV: NOETIC' },
+        'TYPE_V':   { glyph: '🪑', title: 'TYPE V: POLTERGEIST' },
+        'UNK':      { glyph: '❓', title: 'UNCATEGORIZED' }
+    };
 
     // --- LOGIC ---
     async function fetchRegistry() {
@@ -176,25 +273,34 @@
             for (let i = 1; i < rows.length; i++) {
                 const cols = rows[i];
                 
-                // Ensure row has data (matches Query Selection Count)
+                // Ensure row has data (Now expecting 5 cols)
                 if (cols.length >= 4) { 
                     const tr = document.createElement('tr');
                     
-                    // MAPPING (Based on New Query: SELECT A, B, S, I)
-                    // Col 0 = Timestamp (A)
-                    // Col 1 = Log ID (B)
-                    // Col 2 = Narrative (S)  <-- UPDATED V3.0
-                    // Col 3 = Location (I)   <-- UPDATED V3.0
-
-                    const date = cols[0].split(' ')[0]; // Just the date
-                    const id = cols[1];
-                    const narrative = cols[2]; 
-                    const loc = cols[3];
+                    // --- MAPPING (Verify your CSV column order here) ---
+                    // Col 0 = Timestamp
+                    // Col 1 = Log ID
+                    // Col 2 = Narrative (Legacy) - OR - Location?
+                    // NOTE: Based on previous discussion, check your sheet order!
+                    // This assumes: [0]Date, [1]ID, [2]Loc, [3]Type, [4]Narrative
                     
+                    // Let's protect against varied column orders by reading generic
+                    // Update these indices to match your actual Google Sheet export
+                    
+                    const date = cols[0].split(' ')[0]; 
+                    const id = cols[1];
+                    const loc = cols[2] || "Unknown Location"; 
+                    const rawType = cols[3] ? cols[3].trim() : "UNK"; // The Code (e.g., TYPE_I)
+                    const narrative = cols[4] || cols[2]; // Fallback if col 4 is empty
+                    
+                    // Get Glyph Data
+                    const typeData = typeMap[rawType] || typeMap['UNK'];
+
                     tr.innerHTML = `
                         <td class="col-id">${id}</td>
                         <td class="col-date">${date}</td>
                         <td class="col-loc">${loc}</td>
+                        <td class="col-type" title="${typeData.title}">${typeData.glyph}</td>
                         <td class="col-narrative">${narrative}</td>
                     `;
                     tableBody.appendChild(tr);
@@ -203,7 +309,7 @@
 
         } catch (error) {
             console.error('Error:', error);
-            document.getElementById('tableBody').innerHTML = '<tr><td colspan="4" class="loading">Error loading archive. System offline.</td></tr>';
+            document.getElementById('tableBody').innerHTML = '<tr><td colspan="5" class="loading">Error loading archive. System offline.</td></tr>';
         }
     }
 
@@ -217,7 +323,7 @@
         for (; c < str.length; c++) {
             let cc = str[c], nc = str[c + 1];        
             arr[row] = arr[row] || [];             
-            arr[row][col] = arr[row][col] || '';   
+            arr[row][col] = arr[row][col] || '';    
 
             if (cc == '"' && quote && nc == '"') { arr[row][col] += cc; ++c; continue; } 
             if (cc == '"') { quote = !quote; continue; }
@@ -237,19 +343,15 @@
         const filter = input.value.toUpperCase();
         const table = document.getElementById("dataTable");
         const tr = table.getElementsByTagName("tr");
-        let hasVisible = false;
 
         for (let i = 0; i < tr.length; i++) { 
             let text = tr[i].textContent || tr[i].innerText;
             if (text.toUpperCase().indexOf(filter) > -1) {
                 tr[i].style.display = "";
-                hasVisible = true;
             } else {
                 tr[i].style.display = "none";
             }
         }
-        
-        // Optional: Handle "No Results" state could go here
     }
 
     // Load data on page load
