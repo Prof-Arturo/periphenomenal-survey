@@ -1,5 +1,7 @@
 aps_project/
 ├── CNAME
+├── CREDITS.md
+├── LICENSE.txt
 ├── README.md
 ├── directorate_admin/
 │   ├── APS Business Card back.pdf
@@ -42,6 +44,7 @@ aps_project/
 ├── privacy.html
 ├── registry.html
 ├── registry_data/
+│   ├── APS_Cascadia_Log.numbers
 │   ├── APS_Cascadia_Log.xlsx
 │   ├── APS_Cascadia_Log_Backups/
 │   │   ├── APS_Cascadia_Log - _ARCHIVE_V2_DATA.csv
@@ -58,8 +61,9 @@ aps_project/
 │       ├── APS_Biblio_Cryptozoology.pdf
 │       ├── APS_Biblio_HighStrangeness.pdf
 │       ├── APS_Biblio_Liminality.pdf
-│       ├── APS_Biblio_Master_Index.txt
+│       ├── APS_Biblio_Master_Index.md
 │       ├── APS_Biblio_Methodology.pdf
-│       ├── APS_Biblio_NightAssault.pdf
+│       ├── APS_Biblio_Noetic.pdf
+│       ├── APS_Biblio_Poltergeist.pdf
 │       └── APS_Biblio_Simulation.pdf
 └── resources.html
