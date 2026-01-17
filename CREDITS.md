@@ -5,6 +5,13 @@ The APS operates as a collaborative archival project. We acknowledge the followi
 
 ---
 
+## 🏛️ Project Architecture
+
+**The Directorate (Human)** * **Role:** Founder, Primary Architect, & Chief Archivist
+* **Contribution:** Creator of the "Periphenomena" nomenclature and the foundational theoretical framework (Environment + Lived Experience). All creative narrative, lore generation, and strategic vision for the Cascadia Division are the intellectual property of the Primary Architect.
+
+---
+
 ## 🅰️ Typography
 
 **National Park Typeface** Used for all official APS signage, field kits, and wayfinding materials.  
@@ -14,14 +21,15 @@ The APS operates as a collaborative archival project. We acknowledge the followi
 
 ---
 
-## 🤖 Technical & Analytical Assistance
+## 🤖 Technical Assistance
 
-**Directorate AI (Gemini)** *Role: Synthetic Analyst & Protocol Architect* This repository was structured and codified with the assistance of Large Language Model (LLM) analysis. The AI performed the following functions under human supervision:
-* **Taxonomy:** Development of the Type I-V classification system.
-* **Archival:** Standardization of the `DIR-09` intake form and `FRM-009` log templates.
-* **Cartography:** Conceptual mapping of the Cascadia Bioregion definitions.
+**Directorate AI (Gemini)** * **Role:** Synthetic Analyst & Protocol Assistant
+* **Contribution:** This repository was structured with the assistance of Large Language Model (LLM) analysis. The AI performed the following administrative functions under strict human supervision:
+    * **Data Sanitization:** Removal of PII from public logs.
+    * **Formatting:** Standardization of the `DIR-09` intake templates to match the Directorate's specifications.
+    * **Cataloging:** Coding of pre-existing narratives into the Type I-V taxonomy.
 
-> *Note: While AI tools assisted in the organization of data, all narrative memorates (witness accounts) and final creative decisions remain the property of the human Directorate.*
+> *Note: All core concepts, definitions, and "high strangeness" variables were defined by the Human Directorate. The AI served solely as an organizational tool.*
 
 ---
 
