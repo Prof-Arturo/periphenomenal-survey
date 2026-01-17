@@ -92,7 +92,7 @@
     * `APS_Biblio_Cryptozoology.pdf` 🐾
     * `APS_Biblio_HighStrangeness.pdf` 🛸
     * `APS_Biblio_Liminality.pdf` 🚪
-    * `APS_Biblio_Master_Index.md` _(Catalog & Codes)_
+    * `APS_Biblio_Master_Index.md` 🗃️
     * `APS_Biblio_Methodology.pdf` 📐
     * `APS_Biblio_Noetic.pdf` 🛌
     * `APS_Biblio_Poltergeist.pdf` 🪑
