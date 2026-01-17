@@ -9,7 +9,7 @@ The APS operates as a collaborative archival project. We acknowledge the followi
 
 **The Directorate (Human)** * **Role:** Founder, Primary Architect, & Chief Archivist
 * **Contribution:** Creator of the "Periphenomena" nomenclature and the foundational theoretical framework (Environment + Lived Experience). All creative narrative, lore generation, and strategic vision for the Cascadia Division are the intellectual property of the Primary Architect.
-* **Data Sanitization:** Also responsible for removal of PII from public logs.
+* **Data Sanitization:** Also responsible for review and removal of PII from public logs.
 
 ---
 
