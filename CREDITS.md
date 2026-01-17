@@ -9,6 +9,7 @@ The APS operates as a collaborative archival project. We acknowledge the followi
 
 **The Directorate (Human)** * **Role:** Founder, Primary Architect, & Chief Archivist
 * **Contribution:** Creator of the "Periphenomena" nomenclature and the foundational theoretical framework (Environment + Lived Experience). All creative narrative, lore generation, and strategic vision for the Cascadia Division are the intellectual property of the Primary Architect.
+* **Data Sanitization:** Also responsible for removal of PII from public logs.
 
 ---
 
@@ -25,9 +26,9 @@ The APS operates as a collaborative archival project. We acknowledge the followi
 
 **Directorate AI (Gemini)** * **Role:** Synthetic Analyst & Protocol Assistant
 * **Contribution:** This repository was structured with the assistance of Large Language Model (LLM) analysis. The AI performed the following administrative functions under strict human supervision:
-    * **Data Sanitization:** Removal of PII from public logs.
-    * **Formatting:** Standardization of the `DIR-09` intake templates to match the Directorate's specifications.
-    * **Cataloging:** Coding of pre-existing narratives into the Type I-V taxonomy.
+    * **Formatting:** Standardization of intake templates and other forms to match requested specifications.
+    * **Cataloging:** Categorizing pre-existing narratives into the Type I-V taxonomy.
+    * **Coding:** Generating HTML and Javascript for online presence.
 
 > *Note: All core concepts, definitions, and "high strangeness" variables were defined by the Human Directorate. The AI served solely as an organizational tool.*
 
