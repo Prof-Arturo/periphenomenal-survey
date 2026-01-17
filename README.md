@@ -27,6 +27,8 @@
 
 ### **`/aps_project/` (Root)**
 * `CNAME` _(Domain Configuration)_
+* `CREDITS.md` _(Attribution & Acknowledgments)_
+* `LICENSE.txt` _(CC BY-NC-ND 4.0)_
 * `README.md` _(Project Documentation)_
 * `index.html` _(Primary Questionnaire)_
 * `privacy.html` _(Compliance)_
@@ -73,6 +75,7 @@
 * `aps_cascadia_qr.svg` _(Vector Scan Code)_
 
 #### **`/registry_data/`** (Archival)
+* `APS_Cascadia_Log.numbers` _(Mac Database)_
 * `APS_Cascadia_Log.xlsx` _(Master Database - Excel)_
 * `APS_Cascadia_Log_master_headers.csv` _(Schema Template)_
 * `APS_Master_Data_Protocol.pdf` _(Master Schema & Definitions v3.0)_
@@ -89,9 +92,10 @@
     * `APS_Biblio_Cryptozoology.pdf` 🐾
     * `APS_Biblio_HighStrangeness.pdf` 🛸
     * `APS_Biblio_Liminality.pdf` 🚪
-    * `APS_Biblio_Master_Index.txt` _(Catalog & Codes)_
-    * `APS_Biblio_Methodology.pdf`
-    * `APS_Biblio_NightAssault.pdf` 🛌
+    * `APS_Biblio_Master_Index.md` _(Catalog & Codes)_
+    * `APS_Biblio_Methodology.pdf` 📐
+    * `APS_Biblio_Noetic.pdf` 🛌
+    * `APS_Biblio_Poltergeist.pdf` 🪑
     * `APS_Biblio_Simulation.pdf` 🖥️
 
 ---
