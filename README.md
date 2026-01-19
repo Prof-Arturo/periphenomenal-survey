@@ -46,7 +46,7 @@
 * `APS Business Card front.pdf` _(Print Asset)_
 * `APS_Franchise_Application_Kit.txt` _(New Chapter Vetting)_
 * `APS_Franchise_Deployment_Guide.txt` _(Expansion Protocols)_
-* `APS_Mission_Statement_Cascadia_v2.pdf` _(Regional Mandate)_
+* `APS_Mission_Statement_Cascadia_v3.pdf` _(Regional Mandate)_
 * `APS_Operations_Manual_Reg10.pdf` _(Research Protocols)_
 * `APS_Project_Manifest.pdf` _(Master Inventory)_
 * `APS_Strategic_Launch_Plan.txt` _(Strategy)_
@@ -71,6 +71,7 @@
 * `APS_Recruitment_Flyer.pdf` _(Community Intake Flyer)_
 * `APS_Resource_Card_Cascadia.pdf` _(Safety Handout)_
 * `APS_Target_List_NorthSeattle.pdf` _(Targeted Research Zones)_
+* `APS_Target_List_NorthSeattle.kml` _(Digital Map Data)_
 * `aps_cascadia_qr inverted.svg` _(Inverted Vector Scan Code)_
 * `aps_cascadia_qr.svg` _(Vector Scan Code)_
 
@@ -78,7 +79,7 @@
 * `APS_Cascadia_Log.numbers` _(Mac Database)_
 * `APS_Cascadia_Log.xlsx` _(Master Database - Excel)_
 * `APS_Cascadia_Log_master_headers.csv` _(Schema Template)_
-* `APS_Master_Data_Protocol.pdf` _(Data Dictionary v3.0)_
+* `APS_Master_Data_Protocol.pdf` _(Data Dictionary v3.2)_
 * `APS_REG_FRM-009__Master.pdf` _(Archive Template - Print)_
 * `APS_REG_FRM-009__Master.txt` _(Archive Template - Text)_
 * `aps_intake_script.js` _(Backend Logic)_
