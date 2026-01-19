@@ -1,69 +1,68 @@
 =========================================================================
-APS TERRITORIAL DESIGNATIONS: NORTH AMERICA (v2.0)
-Doctrine: Bioregional Sovereignty
+APS TERRITORIAL DESIGNATIONS: NORTH AMERICA (v2.1)
+Framework: Bioregional Integrity
 Status: EFFECTIVE IMMEDIATELY
 =========================================================================
 
-1. DOCTRINE
+1. FRAMEWORK
 -----------
 The American Periphenomenal Survey (APS) rejects political boundaries (State/Provincial lines) 
 as the primary delineator of investigation. Anomalous phenomena—cryptids, weather events, 
 and folklore—are bound by ecology, geology, and watershed, not legislation.
 
-Therefore, the APS divides the continent into 10 Administrative Divisions based on 
+Therefore, the APS divides the continent into 10 Administrative Units based on 
 bioregional and cultural coherence.
 
-
-2. THE 10 DIVISIONS
+2. THE 10 UNITS
 -------------------
 
-[REGION 01] ACADIAN DIVISION
+[REGION 01] ACADIAN UNIT
    * Domain: North Atlantic Forests & Maritime Coast.
    * Coverage: ME, NH, VT, MA, Nova Scotia, New Brunswick.
    * Focus: Old World folklore, maritime hauntings, deep woods isolation.
 
-[REGION 02] APPALACHIAN DIVISION
+[REGION 02] APPALACHIAN UNIT
    * Domain: The Ancient Mountain Spine.
    * Coverage: The mountain range extending from NY/PA down to GA/NC/TN.
    * Focus: "The Old Gods," cave systems, feral anthropology, deep time.
    * Note: Operates independently of the coastal cities to its east.
 
-[REGION 03] MERIDIAN DIVISION
+[REGION 03] MERIDIAN UNIT
    * Domain: Subtropical Lowlands & Gulf Coast.
    * Coverage: SC, GA, AL, MS, FL, LA (Swamp).
    * Focus: Southern Gothic, hauntings, voodoo/hoodoo cultural intersections.
 
-[REGION 04] LAURENTIAN DIVISION
+[REGION 04] LAURENTIAN UNIT
    * Domain: The Freshwater Seas (Great Lakes Basin).
    * Coverage: MI, WI, MN, IL, OH, Southern Ontario (Canada).
    * Focus: Waterborne anomalies, industrial decay (Rust Belt), "Dogman" lore.
 
-[REGION 05] HEARTLAND DIVISION
+[REGION 05] HEARTLAND UNIT
    * Domain: Great Plains & Prairies.
    * Coverage: IA, NE, KS, MO, ND, SD.
    * Focus: UFO/UAP activity, crop formations, "High Strangeness" (The Flyover Void).
 
-[REGION 06] RIO GRANDE DIVISION
+[REGION 06] RIO GRANDE UNIT
    * Domain: Scrubland & River Transition.
    * Coverage: TX, OK.
    * Focus: The transition from plains to desert. Cowboy/Outlaw folklore.
 
-[REGION 07] SONORAN DIVISION
+[REGION 07] SONORAN UNIT
    * Domain: Arid Desert.
    * Coverage: AZ, NM, West TX, Northern Mexico.
    * Focus: Skinwalker lore, "Marfa Lights," energetic vortices, dry heat isolation.
 
-[REGION 08] BASIN DIVISION
+[REGION 08] BASIN UNIT
    * Domain: High Desert Void & The Cordillera.
    * Coverage: NV, UT, Eastern CA, CO, WY, MT.
    * Focus: The "Empty Quarter." Area 51, vast silence, cult activity, mountain giants.
 
-[REGION 09] ALTA DIVISION
+[REGION 09] ALTA UNIT
    * Domain: Mediterranean Coast & Urban Sprawl.
    * Coverage: Coastal California (SF to San Diego), Baja.
    * Focus: Tech-Gnosis, cults, ocean anomalies, urban legends.
 
-[REGION 10] CASCADIA DIVISION
+[REGION 10] CASCADIA UNIT
    * Domain: Temperate Rainforest.
    * Coverage: WA, OR, Northern ID, BC (Canada), SE Alaska.
    * Focus: Sasquatch/Hominids, "The Hum," Tree Giants, Liminal Fog.
@@ -72,7 +71,7 @@ bioregional and cultural coherence.
 3. OPERATIONAL NOTE ON BORDERS
 ------------------------------
 Field Researchers are authorized to cross state and national lines (e.g., WA to BC) 
-if the investigation follows a contiguous watershed or mountain range. 
+if the investigation follows a contiguous watershed or mountain range.
 The anomaly dictates the jurisdiction, not the map.
 
 =========================================================================

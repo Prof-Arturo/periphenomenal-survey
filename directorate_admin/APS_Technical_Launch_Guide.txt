@@ -1,13 +1,13 @@
 =========================================================================
 APS TECHNICAL GUIDE: DIGITAL LAUNCH & SEO
-Division: Cascadia (Region 10)
+Unit: Cascadia (Region 10)
 Reference: Supports 'Phase 1' of Deployment Protocol
 =========================================================================
 
 PHASE 1: SERVER ACTIVATION (GITHUB PAGES)
 -----------------------------------------
-Your files currently sit dormant in the repository. This step turns them into 
-a live, accessible website.
+Your files currently sit dormant in the repository.
+This step turns them into a live, accessible website.
 
 1. ACCESS REPOSITORY SETTINGS
    - Go to your GitHub Repository.
@@ -18,7 +18,7 @@ a live, accessible website.
    - Under "Source", ensure "Deploy from a branch" is selected.
    - Under "Branch", select "main" (or master).
    - **CRITICAL STEP:** Select the folder "/aps_online" (NOT root).
-     *Why: We only want the public to see the website, not your internal admin files.*
+   *Why: We only want the public to see the website, not your internal admin files.*
 
 3. LAUNCH
    - Click "Save".
@@ -30,32 +30,33 @@ a live, accessible website.
    - Verify the Cascadia Logo loads.
    - Verify the "Jurisdiction" dropdown shows "Alaska (Southeast)" and "Northern CA".
 
-
 PHASE 2: SEARCH ENGINE OPTIMIZATION (SEO)
 -----------------------------------------
-To ensure the "Spiderweb" works, Google must know what this site is.
-We need to inject "Meta Tags" into your code.
+To ensure discovery, search engines must index the site correctly.
+We inject "Meta Tags" into the code to define the project scope.
 
 1. OPEN 'index.html'
    - Locate the <head> section (near the top).
    - Paste the following block immediately after the <title> tag:
 
-   <meta name="description" content="The American Periphenomenal Survey (Cascadia Division) is an academic registry systematically documenting anomalous human experiences, cryptids, and liminal events in the Pacific Northwest (WA, OR, ID, BC, AK).">
-   <meta name="keywords" content="Cascadia, Bioregion, Bigfoot, Sasquatch, High Strangeness, Liminal Spaces, Glitch in the Matrix, Academic Survey, Pacific Northwest, Region 10">
-   <meta name="author" content="APS Directorate: Region 10">
+   <meta name="description" content="The American Periphenomenal Survey (Cascadia Division) is an independent research initiative systematically documenting anomalous human experiences in the Pacific Northwest.">
+   <meta name="keywords" content="Cascadia, Bioregion, Bigfoot, Sasquatch, High Strangeness, Liminal Spaces, Glitch in the Matrix, Citizen Science, Pacific Northwest, Region 10">
+   <meta name="author" content="APS Research Collective: Cascadia">
    <meta name="robots" content="index, follow">
    
    <meta property="og:type" content="website">
    <meta property="og:title" content="APS Cascadia: Report an Anomaly">
    <meta property="og:description" content="Secure, anonymous reporting for unexplained phenomena in the Pacific Northwest. Help us map the unknown.">
    <meta property="og:image" content="media/aps_cascadia_logo.svg">
-   PHASE 3: INDEXING (GOOGLE SEARCH CONSOLE)
+
+PHASE 3: INDEXING (GOOGLE SEARCH CONSOLE)
 -----------------------------------------
-Google can take months to find a new GitHub site. Force them to look now.
+Google can take months to find a new GitHub site.
+Force the crawl manually.
 
 1. REGISTER
    - Go to Google Search Console (search.google.com/search-console).
-   - Log in with a generic Google Account (not your personal one, if possible).
+   - Log in with a generic Google Account.
 
 2. ADD PROPERTY
    - Select "URL Prefix".
@@ -77,11 +78,12 @@ Google can take months to find a new GitHub site. Force them to look now.
 
 PHASE 4: PROFESSIONAL CREDIBILITY (CUSTOM DOMAIN)
 -------------------------------------------------
-A ".github.io" URL looks like a student project. A ".org" URL looks like an institution.
-*This step is optional but highly recommended for Phase 2 (Data Accumulation).*
+A ".github.io" URL looks like a student project.
+A ".org" URL establishes institutional credibility.
+*This step is optional but recommended.*
 
 1. ACQUISITION
-   - Purchase a domain (approx. $12/yr) from Namecheap, Google, or Porkbun.
+   - Purchase a domain (approx. $12/yr).
    - Recommended Formats:
      * aps-cascadia.org
      * cascadia-registry.org
@@ -92,7 +94,6 @@ A ".github.io" URL looks like a student project. A ".org" URL looks like an inst
    - GitHub will provide DNS records (A Records and CNAME).
    - Log into your Domain Registrar and paste these records.
    - Check the box "Enforce HTTPS" in GitHub (Wait 24 hours for SSL certificate).
-
 
 PHASE 5: COMPLIANCE CHECK
 -------------------------

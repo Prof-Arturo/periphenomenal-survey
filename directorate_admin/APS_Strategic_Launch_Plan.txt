@@ -1,62 +1,54 @@
-deployment_protocol_cascadia.txt
-
 =========================================================================
-APS DEPLOYMENT PROTOCOL: CASCADIA DIVISION (v3.1)
-Status: ACTIVE | Model: Solo-Operator Franchise
+APS DEPLOYMENT PROTOCOL: CASCADIA (v3.1)
+Status: ACTIVE | Model: Solo-Operator Node
 Map Reference: aps_composite_map.png
 =========================================================================
 
 1. MISSION PROFILE
 ------------------
-The Cascadia Division (Region 10) operates as a decentralized archival node. 
+The Cascadia Unit (Region 10) operates as a decentralized archival node.
 We observe Methodological Agnosticism. We document the "Data of the Weird" 
 without endorsing a specific spiritual or scientific theory.
 
-
 2. OPERATIONAL ARCHITECTURE
 ---------------------------
-A. /directorate_admin/ (Governance & Source Files)
-B. /registry_data/     (The Private Archive - CSV Database)
-C. /field_kits/        (Acquisition Tools)
+A. /directorate_admin/ (Project Administration)
+B. /registry_data/     (The Archive - CSV Database)
+C. /field_kits/        (Field Research Tools)
 D. /(Root Directory)   (Public Interface)
 
 
-3. PHASE 1: DIGITAL STATIONING (THE "DARK" LAUNCH)
+3. PHASE 1: DIGITAL STATIONING (BETA PHASE)
 --------------------------------------------------
-Goal: Ensure the ingestion system works before the public sees it.
-**Reference:** See 'APS_Technical_Launch_Guide.txt' for step-by-step config.
+Goal: Ensure the ingestion system works before wide release.
+**Reference:** See 'APS_Technical_Launch_Guide.txt' for configuration.
 
 [ ] STEP 1: THE INTAKE PORTAL (Geofencing Active)
-...
     Deploy 'index.html' to GitHub Pages.
-    - Constraint: The form must visually warn users if they select a location 
-      outside the Bioregion.
+    - Constraint: Visual warnings active for non-Bioregion submissions.
     - Authorized Codes: { WA, OR, ID, BC, AK_SE, NORCAL_JEFF }
-    - Logic: Non-Cascadia reports are flagged as "JURISDICTION_ERROR" in the CSV.
+    - Logic: Non-Cascadia reports are flagged as "JURISDICTION_ERROR".
 
 [ ] STEP 2: PROFESSIONAL VALIDATION
     - Domain: Purchase a dedicated domain (e.g., aps-cascadia.org).
     - SSL: Ensure HTTPS enforcement is active.
-    - Why: A custom URL increases submission rates by ~40% over a raw GitHub link.
+    - Why: A custom URL increases submission confidence by ~40%.
 
-
-4. PHASE 2: DATA ACCUMULATION (THE "BLACKOUT" PERIOD)
+4. PHASE 2: DATA ACCUMULATION (ACTIVE ARCHIVE)
 -----------------------------------------------------
-Goal: Fill the reservoir. The Public Registry remains OFFLINE during this phase.
+Goal: Populate the dataset. The Public Registry remains OFFLINE (Internal Only).
 
-[ ] STEP 1: PHYSICAL ASSETS (PASSIVE RECRUITMENT)
+[ ] STEP 1: FIELD RECRUITMENT (PASSIVE)
     Print 20 copies of "APS_Recruitment_Flyer.pdf".
-    Place them in high-traffic "Liminal Spaces" (ferry terminals, trailheads, 
-    bulletin boards near older forests).
+    Place them in "Liminal Spaces" (ferry terminals, trailheads, community boards).
 
 [ ] STEP 2: THE QR LINK
     Ensure the QR Code points to the Intake Portal.
-    The Loop: User sees flyer -> Scans Code -> Submits Data -> We Archiving.
+    The Loop: User sees flyer -> Scans Code -> Submits Data -> Archive Ingests.
 
-
-5. ANALYST WORKFLOW (WEEKLY TRIAGE)
+5. ANALYST WORKFLOW (WEEKLY REVIEW)
 -----------------------------------
-Every Sunday, the Director assumes the role of "Senior Analyst."
+Every Sunday, the Lead Archivist assumes the role of "Senior Analyst."
 
 [ ] STEP 1: INGESTION
     Open "APS_Cascadia_Log.csv".
@@ -64,35 +56,33 @@ Every Sunday, the Director assumes the role of "Senior Analyst."
 
 [ ] STEP 2: CODING & CLEANING
     - Assign Case IDs (CAS-001, CAS-002...).
-    - Fix formatting errors.
+    - Standardize formatting.
     - Flag "High Quality" narratives for future publication.
 
 [ ] STEP 3: ARCHIVAL
-    Save the CSV. No public upload yet.
+    Save the CSV.
+    No public upload yet.
 
 
-6. PHASE 3: THE "OPEN RECORD" (CONDITIONAL LAUNCH)
+6. PHASE 3: THE "OPEN RECORD" (PUBLIC RELEASE)
 --------------------------------------------------
 **CRITICAL MILESTONE:** Initiate Phase 3 ONLY after collecting 25 Verified Reports.
 
 [ ] STEP 1: DEPLOY 'REGISTRY.HTML'
     Create the public-facing table that pulls from your CSV.
-    - Sanitize: Ensure NO names/emails are displayed.
+    - Anonymize: Ensure NO names/emails are displayed.
     - Sort: Allow public to sort by "Event Type" or "Location".
 
 [ ] STEP 2: THE FEEDBACK LOOP
     Once the Registry is live, new flyers can say:
     "See the map of local anomalies at [URL]."
-    This proves to the public that the project is alive and active.
-
+    This demonstrates project activity and transparency.
 
 7. EMERGENCY / SHUTDOWN
 -----------------------
-In the event of compromise or project termination:
+In the event of project termination:
 1. Unpublish the GitHub Repository.
 2. Archive "APS_Cascadia_Log.csv" to an encrypted local drive.
-3. Shred all physical Clipboard forms containing PII.
+3. Destroy all physical Clipboard forms containing PII.
 
 =========================================================================
-
-
