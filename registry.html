@@ -6,7 +6,7 @@
     <title>APS Cascadia | Public Registry</title>
     <link rel="icon" type="image/png" href="media/favicon.png">
     <style>
-        /* --- ACADEMIC / FEDERAL STYLING (v3.2) --- */
+        /* --- ACADEMIC / FEDERAL STYLING (v3.3) --- */
         @font-face {
             font-family: 'NationalPark';
             src: url('media/NationalPark-VariableVF.ttf') format('truetype');
@@ -16,7 +16,7 @@
         :root {
             --primary: #1a1a1a;
             --accent: #2c4a34; /* Forest Service Green */
-            --bg: #f4f4f0;      /* Old Paper */
+            --bg: #f4f4f0;     /* Old Paper */
             --highlight: #e0e0d8;
         }
 
@@ -176,10 +176,10 @@
 <div class="container">
     <header>
         <h1>Cascadia Registry</h1>
-        <div class="sub-head">PUBLIC ARCHIVE | REGION 10 | AUTHORIZED ENTRIES ONLY</div>
+        <div class="sub-head">PUBLIC ARCHIVE | REGION 10 | VERIFIED DATA LOG</div>
     </header>
 
-    <input type="text" id="searchInput" class="search-box" placeholder="[ SEARCH DATABASE... ] Filter by keyword, location, or ID" onkeyup="filterTable()">
+    <input type="text" id="searchInput" class="search-box" placeholder="Search Database... (Filter by keyword, location, or ID)" onkeyup="filterTable()">
 
     <table class="registry-table" id="dataTable">
         <thead>
@@ -234,9 +234,10 @@
     </div>
 
     <div style="margin-top: 40px; border-top: 1px solid #000; padding-top: 10px; font-size: 0.8rem; text-align: center; opacity: 0.7;">
-        APS Directorate | Cascadia Division<br>
+        APS Administration | Cascadia Division<br>
         <em>All entries anonymized per privacy protocol.</em><br>
-        <a href="index.html" style="color: var(--primary); text-decoration: none;">[ Submit New Report ]</a>
+        <a href="index.html" style="color: var(--primary); text-decoration: none;">[ Submit New Report ]</a> | 
+        <a href="privacy.html" style="color: var(--primary); text-decoration: none;">[ Privacy Policy ]</a>
     </div>
 </div>
 
@@ -314,7 +315,7 @@
 
         for (; c < str.length; c++) {
             let cc = str[c], nc = str[c + 1];        
-            arr[row] = arr[row] || [];             
+            arr[row] = arr[row] || [];              
             arr[row][col] = arr[row][col] || '';    
 
             if (cc == '"' && quote && nc == '"') { arr[row][col] += cc; ++c; continue; } 
