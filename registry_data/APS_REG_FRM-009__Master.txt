@@ -1,9 +1,9 @@
 
 
 
-📖 APS Internal Archive Log
+🗃️APS Internal Archive Log
 Study: The American Periphenomenal Survey 
-Division: Registry Division		| Region: 🌲Cascadia (Reg10)
+Unit: 💾The Archive			| Region: 🌲Cascadia (Reg10)
 Status: CLASSIFIED / CONTAINS PII  	| Form: FRM-009
 
 
@@ -66,7 +66,6 @@ ATTRIBUTION (Subject's Theory):
 _________________________________________________________________________
 _________________________________________________________________________
 _________________________________________________________________________
-
 [ SECTION 6: ANALYST NOTES ]
 (Internal comments, debunking notes, or cross-reference flags)
 ___________________________________________________________________________________
@@ -79,5 +78,5 @@ DISPOSITION: [ ] ARCHIVE (Credible) [ ] DEBUNK (Identified) [ ] SPAM (Discard)
 ANALYST SIG: _______________________________________________ DATE: ____/____/20____
 
 -----------------------------------------------------------------------------------
-PROPERTY OF THE AMERICAN PERIPHENOMENAL SURVEY. 
+PROPERTY OF THE APS ADMINISTRATION	|	💾The Archive
 METHODOLOGICAL AGNOSTICISM OBSERVED.
