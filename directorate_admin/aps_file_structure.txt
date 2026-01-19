@@ -1,14 +1,14 @@
 aps_project/
 ├── CNAME
-├── CREDITS.md
 ├── LICENSE.txt
 ├── README.md
+├── credits.html
 ├── directorate_admin/
 │   ├── APS Business Card back.pdf
 │   ├── APS Business Card front.pdf
 │   ├── APS_Franchise_Application_Kit.txt
 │   ├── APS_Franchise_Deployment_Guide.txt
-│   ├── APS_Mission_Statement_Cascadia_v2.pdf
+│   ├── APS_Mission_Statement_Cascadia_v3.pdf
 │   ├── APS_Operations_Manual_Reg10.pdf
 │   ├── APS_Project_Manifest.pdf
 │   ├── APS_Strategic_Launch_Plan.txt
@@ -23,14 +23,15 @@ aps_project/
 │       ├── aps_cascadia_logo.svg
 │       └── aps_logo_main.svg
 ├── field_kits/
-│   ├── APS QR Stickers_v2.pdf
 │   ├── APS_Debriefing_Protocol_Training.pdf
 │   ├── APS_Field_Instrument_Reg10.pdf
 │   ├── APS_Field_Manual_Reg10.pdf
 │   ├── APS_Field_Manual_Reg10_booklet.pdf
 │   ├── APS_Field_Questionnaire.pdf
+│   ├── APS_QR_Stickers_v2.pdf
 │   ├── APS_Recruitment_Flyer.pdf
 │   ├── APS_Resource_Card_Cascadia.pdf
+│   ├── APS_Target_List_NorthSeattle.kml
 │   ├── APS_Target_List_NorthSeattle.pdf
 │   ├── aps_cascadia_qr inverted.svg
 │   └── aps_cascadia_qr.svg
