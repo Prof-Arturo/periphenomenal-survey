@@ -1,7 +1,7 @@
 # 🗃️ APS Bibliography Master Index
 **Study:** The American Periphenomenal Survey  
-**Unit:** 💾 The Archive      |  **Region:** 🌲 Cascadia (Reg10)  
-**Status:** ACTIVE REFERENCE  |  **Version:** 3.0 (Consolidated Build)
+**Unit:** 💾 The Archive &nbsp;&nbsp;|&nbsp;&nbsp; **Region:** 🌲 Cascadia (Reg10)  
+**Status:** ACTIVE REFERENCE &nbsp;|&nbsp; **Version:** 3.0 (Consolidated Build)
 
 ---
 
