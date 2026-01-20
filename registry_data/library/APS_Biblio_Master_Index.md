@@ -7,7 +7,7 @@
 
 ### 📂 MISSION CATEGORY INDEX
 
-[cite_start]The following index maps the specialized bibliographies in the `/library/` directory to their corresponding Classification Codes (Type I-V) [cite: 23-27].
+The following index maps the specialized bibliographies in the `/library/` directory to their corresponding Classification Codes (Type I-V).
 
 | BIBLIOGRAPHY FILE | TYPE / CODE | FOCUS AREA |
 | :--- | :--- | :--- |
