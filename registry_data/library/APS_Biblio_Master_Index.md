@@ -1,11 +1,11 @@
 # 🗃️ APS Bibliography Master Index
 **Study:** The American Periphenomenal Survey  
-**Division:** Registry  |  **Region:** 🌲 Cascadia (Reg10)  
+**Unit:** 💾 The Archive  |  **Region:** 🌲 Cascadia (Reg10)  
 **Status:** ACTIVE REFERENCE  |  **Version:** 3.0 (Consolidated Build)
 
 ---
 
-### 📂 MISSION CATEGORY INDEX
+### 📂 REFERENCE CATEGORY INDEX
 
 The following index maps the specialized bibliographies in the `/library/` directory to their corresponding Classification Codes (Type I-V).
 
