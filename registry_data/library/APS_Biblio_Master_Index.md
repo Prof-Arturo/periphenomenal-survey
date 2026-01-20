@@ -5,7 +5,7 @@
 
 ---
 
-### 📂 REFERENCE CATEGORY INDEX
+### 📂 REFERENCES CATEGORY INDEX
 
 The following index maps the specialized bibliographies in the `/library/` directory to their corresponding Classification Codes (Type I-V).
 
