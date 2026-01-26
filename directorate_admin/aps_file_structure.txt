@@ -45,14 +45,6 @@ aps_project/
 ├── privacy.html
 ├── registry.html
 ├── registry_data/
-│   ├── APS_Cascadia_Log.numbers
-│   ├── APS_Cascadia_Log.xlsx
-│   ├── APS_Cascadia_Log_Backups/
-│   │   ├── APS_Cascadia_Log - _ARCHIVE_V2_DATA.csv
-│   │   ├── APS_Cascadia_Log_Backup_2026-01-08.csv
-│   │   ├── APS_Cascadia_Log_Backup_2026-01-08.xlsx
-│   │   ├── APS_Cascadia_Log_Reviewed_2026-01-11.xlsx
-│   │   └── APS_Cascadia_Log_review_2026_01_11.csv
 │   ├── APS_Cascadia_Log_master_headers.csv
 │   ├── APS_Master_Data_Protocol.pdf
 │   ├── APS_REG_FRM-009__Master.pdf
