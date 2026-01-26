@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>APS Tactical Targets: North Seattle</name>
+    <name>APS Strategic Research Zones: North Seattle</name>
     <description>
       <![CDATA[
-        <b>OPERATION: SIGNAL_FLARE</b><br>
-        Sector: North Seattle (HQ Radius ~7.5 Miles)<br>
+        <b>PHASE: PUBLIC RECRUITMENT</b><br>
+        Sector: North Seattle (Primary Zone ~7.5 Miles)<br>
         <br>
-        <b>REMINDER:</b> Apply "Gray Man Doctrine" at all times.<br>
+        <b>REMINDER:</b> Apply "Neutral Observer Protocol" at all times.<br>
         Park nose-out. Do not deface private property.
       ]]>
     </description>
@@ -58,10 +58,10 @@
       <name>[A] Community Hubs</name>
       
       <Placemark>
-        <name>1. Lake City Library</name>
-        <description><![CDATA[<b>Status:</b> PENDING<br><b>Context:</b> Core neighborhood hub.<br><b>Action:</b> Place flyer on "Community Events" board near reference desk.]]></description>
+        <name>1. Broadview Library</name>
+        <description><![CDATA[<b>Status:</b> PENDING<br><b>Context:</b> High residential foot traffic.<br><b>Action:</b> Place flyer on public notice board in entryway vestibule.]]></description>
         <styleUrl>#hub-pending</styleUrl>
-        <Point><coordinates>-122.2965,47.7196,0</coordinates></Point>
+        <Point><coordinates>-122.3556,47.7225,0</coordinates></Point>
       </Placemark>
 
       <Placemark>
@@ -107,10 +107,10 @@
       </Placemark>
 
       <Placemark>
-        <name>8. McMenamins Anderson School</name>
-        <description><![CDATA[<b>Status:</b> PENDING<br><b>Context:</b> Converted Jr High. Surreal art/history.<br><b>Action:</b> Pin board near "Woodshop" or front desk.]]></description>
+        <name>8. UW Bothell / Cascadia College (ARC)</name>
+        <description><![CDATA[<b>Status:</b> PENDING<br><b>Context:</b> Shared academic campus. Brutalist architecture.<br><b>Action:</b> Place on board in the ARC or Library vestibule.]]></description>
         <styleUrl>#hub-pending</styleUrl>
-        <Point><coordinates>-122.2090,47.7630,0</coordinates></Point>
+        <Point><coordinates>-122.1930,47.7580,0</coordinates></Point>
       </Placemark>
     </Folder>
 
@@ -133,21 +133,21 @@
 
       <Placemark>
         <name>3. Matthews Beach Park</name>
-        <description><![CDATA[<b>Status:</b> PENDING<br><b>Context:</b> Creek meets lake. Water boundary.<br><b>Action:</b> Tag kiosk near Burke-Gilman connector.]]></description>
+        <description><![CDATA[<b>Status:</b> PENDING<br><b>Context:</b> Creek meets lake. Water boundary.<br><b>Action:</b> Post on kiosk near Burke-Gilman connector.]]></description>
         <styleUrl>#liminal-pending</styleUrl>
         <Point><coordinates>-122.2760,47.6950,0</coordinates></Point>
       </Placemark>
 
       <Placemark>
         <name>4. Acacia Memorial Park (Perimeter)</name>
-        <description><![CDATA[<b>Status:</b> PENDING<br><b>Context:</b> Massive cemetery bordering highway.<br><b>Action:</b> Tag utility poles on sidewalk. DO NOT ENTER GROUNDS.]]></description>
+        <description><![CDATA[<b>Status:</b> PENDING<br><b>Context:</b> Massive cemetery bordering highway.<br><b>Action:</b> Affix to utility poles on sidewalk. DO NOT ENTER GROUNDS.]]></description>
         <styleUrl>#liminal-pending</styleUrl>
         <Point><coordinates>-122.2918,47.7385,0</coordinates></Point>
       </Placemark>
 
       <Placemark>
         <name>5. Hamlin Park</name>
-        <description><![CDATA[<b>Status:</b> PENDING<br><b>Context:</b> Dense, old-growth urban forest.<br><b>Action:</b> Tag trailhead map kiosk.]]></description>
+        <description><![CDATA[<b>Status:</b> PENDING<br><b>Context:</b> Dense, old-growth urban forest.<br><b>Action:</b> Place on trailhead map kiosk.]]></description>
         <styleUrl>#liminal-pending</styleUrl>
         <Point><coordinates>-122.3104,47.7450,0</coordinates></Point>
       </Placemark>
@@ -161,14 +161,14 @@
 
       <Placemark>
         <name>7. Carkeek Park</name>
-        <description><![CDATA[<b>Status:</b> PENDING<br><b>Context:</b> Ravine forest meeting ocean, trains.<br><b>Action:</b> Tag pedestrian bridge over railroad tracks.]]></description>
+        <description><![CDATA[<b>Status:</b> PENDING<br><b>Context:</b> Ravine forest meeting ocean, trains.<br><b>Action:</b> Affix to notice board near pedestrian bridge.]]></description>
         <styleUrl>#liminal-pending</styleUrl>
         <Point><coordinates>-122.3720,47.7115,0</coordinates></Point>
       </Placemark>
 
       <Placemark>
         <name>8. Richmond Beach Saltwater Park</name>
-        <description><![CDATA[<b>Status:</b> PENDING<br><b>Context:</b> Isolated beach access.<br><b>Action:</b> Tag lower parking lot notice board.]]></description>
+        <description><![CDATA[<b>Status:</b> PENDING<br><b>Context:</b> Isolated beach access.<br><b>Action:</b> Post on lower parking lot notice board.]]></description>
         <styleUrl>#liminal-pending</styleUrl>
         <Point><coordinates>-122.3850,47.7660,0</coordinates></Point>
       </Placemark>
@@ -200,7 +200,7 @@
 
       <Placemark>
         <name>3. Volunteer Park Water Tower</name>
-        <description><![CDATA[<b>Status:</b> PENDING<br><b>Context:</b> Reservoir/Panopticon tower.<br><b>Action:</b> Tag brickwork inside stairwell or conservatory board.]]></description>
+        <description><![CDATA[<b>Status:</b> PENDING<br><b>Context:</b> Reservoir/Panopticon tower.<br><b>Action:</b> Affix to public notice stanchion near Conservatory.]]></description>
         <styleUrl>#hotspot-pending</styleUrl>
         <Point><coordinates>-122.3146,47.6290,0</coordinates></Point>
       </Placemark>
